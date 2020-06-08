@@ -51,11 +51,84 @@ class Home extends React.Component {
         <section className="hero-intro">
           <div className="hero-intro--inner">
             <div className="image-content">
-              <img src={require("../assets/lintas-buana-siapa-kami.jpg")} alt="WhoIsUs"/>
+              <img src={require("../assets/lintas-buana-siapa-kami.jpg")} alt="WhoIsUs" />
             </div>
             <div className="copy-content">
               <h2>SIAPA KAMI</h2>
               <p>Dengan pengalaman menyediakan perjalanan wisata kepada puluhan perusahaan ternama dan perseorangan yang tak terhitung lagi jumlahnya, Lintas Buana Tour &amp; Travel siap memberikan yang terbaik. Beragam pilihan wisata maupun layanan lain, kami sediakan demi memenuhi kebutuhan, kenyamanan, serta kemudahan bagi Anda.</p>
+            </div>
+          </div>
+        </section>
+
+        <section className="hero-our-trip">
+          <div className="hero-our-trip--inner">
+            <h2>PERJALANAN KAMI</h2>
+            <div className="pundi-tour-porto">
+              <ul className="grid-photo">
+                <li className="grid-photo--list">
+                  <div className="image-wrapper">
+                    <img src={require("../assets/lintas-buana-siapa-kami.jpg")} alt="" style={{ width: "200px", height: "200px" }} />
+                  </div>
+                </li>
+                <li className="grid-photo--list">
+                  <div className="image-wrapper">
+                    <img src={require("../assets/lintas-buana-siapa-kami.jpg")} alt="" style={{ width: "200px", height: "200px" }} />
+                  </div>
+                </li>
+                <li className="grid-photo--list">
+                  <div className="image-wrapper">
+                    <img src={require("../assets/lintas-buana-siapa-kami.jpg")} alt="" style={{ width: "200px", height: "200px" }} />
+                  </div>
+                </li>
+                <li className="grid-photo--list">
+                  <div className="image-wrapper">
+                    <img src={require("../assets/lintas-buana-siapa-kami.jpg")} alt="" style={{ width: "200px", height: "200px" }} />
+                  </div>
+                </li>
+                <li className="grid-photo--list">
+                  <div className="image-wrapper">
+                    <img src={require("../assets/lintas-buana-siapa-kami.jpg")} alt="" style={{ width: "200px", height: "200px" }} />
+                  </div>
+                </li>
+                <li className="grid-photo--list">
+                  <div className="image-wrapper">
+                    <img src={require("../assets/lintas-buana-siapa-kami.jpg")} alt="" style={{ width: "200px", height: "200px" }} />
+                  </div>
+                </li>
+                <li className="grid-photo--list">
+                  <div className="image-wrapper">
+                    <img src={require("../assets/lintas-buana-siapa-kami.jpg")} alt="" style={{ width: "200px", height: "200px" }} />
+                  </div>
+                </li>
+                <li className="grid-photo--list">
+                  <div className="image-wrapper">
+                    <img src={require("../assets/lintas-buana-siapa-kami.jpg")} alt="" style={{ width: "200px", height: "200px" }} />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section className="hero-why-us">
+          <div className="hero-why-us--inner">
+            <div className="copy-content">
+              <h2>MENGAPA KAMI</h2>
+              <div className="list-advantage">
+                <span className="fa-stack"></span>
+                <span>LEGALITAS LENGKAP</span>
+              </div>
+              <div className="list-advantage">
+                <span className="fa-stack"></span>
+                <span>ANDAL DAN BERPENGALAMAN</span>
+              </div>
+              <div className="list-advantage">
+                <span className="fa-stack"></span>
+                <span>BERAGAM DESTINASI DAN PENGALAMAN</span>
+              </div>
+            </div>
+            <div className="copy-image">
+              <img src={require("../assets/lintas-buana-mengapa-kami.jpg")} alt="WhyUs" />
             </div>
           </div>
         </section>

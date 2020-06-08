@@ -111,3 +111,45 @@
     }
   }
 }
+
+.hero-our-trip {
+  text-align: center;
+
+  &--inner {
+    margin: 0 auto;
+    width: 1170px;
+
+    .pundi-tour-porto {
+      margin: 0 auto;
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        margin-left: 100px;
+        min-width: 270px;
+        text-align: center;
+
+        li {
+          padding: 10px;
+          box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+        }
+
+        .image-wrapper {
+          border: 10px solid #fff;
+        }
+      }
+    }
+  }
+}
+
+.hero-why-us {
+  background-color: #f2f2f2;
+  margin: 0 auto;
+
+  &--inner {
+    display: flex;
+    margin: 0 auto;
+    width: 1170px;
+  }
+}
