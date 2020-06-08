@@ -1,4 +1,5 @@
 import React from 'react';
+// import { Carousel } from 'react-responsive-carousel';
 import './Home.scss';
 
 class Home extends React.Component {
@@ -7,6 +8,23 @@ class Home extends React.Component {
     return (
       <div>
         {/* <section className="image-landing"></section> */}
+        {/* <section className="section-carousell">
+          <Carousel>
+            <div>
+              <img src={require("../assets/kapal-pesiar-royal-caribbean.jpg")} />
+              <p className="legend">Legend 1</p>
+            </div>
+            <div>
+              <img src={require("../assets/kapal-pesiar-royal-caribbean.jpg")} />
+              <p className="legend">Legend 2</p>
+            </div>
+            <div>
+              <img src={require("../assets/kapal-pesiar-royal-caribbean.jpg")} />
+              <p className="legend">Legend 3</p>
+            </div>
+          </Carousel>
+        </section> */}
+
         <section className="tour-kind">
           <div className="tour-kind--iner">
             <div className="card-wrapper">
@@ -16,7 +34,7 @@ class Home extends React.Component {
                   <i className="fa fa-ship fa-2x"></i>
                 </div>
                 <div className="copy--content">
-                  <h3>Tour Kapan Pesiar</h3>
+                  <h3>Special Interest Tour</h3>
                   <p>Rasakan pengalaman baru mengunjungi destinasi populer di Asia Tenggara menggunakan kapal pesiar.</p>
                 </div>
               </div>

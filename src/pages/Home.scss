@@ -117,7 +117,21 @@
 
   &--inner {
     margin: 0 auto;
+    padding: 80px 0;
     width: 1170px;
+
+    h2 {
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 31px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      -webkit-font-smoothing: antialiased;
+      padding: 0;
+      margin: 0;
+      padding-bottom: 40px;
+      color: #0f0f0f;
+    }
 
     .pundi-tour-porto {
       margin: 0 auto;
@@ -126,17 +140,17 @@
         display: flex;
         flex-wrap: wrap;
         list-style-type: none;
-        margin-left: 100px;
+        margin-left: 60px;
         min-width: 270px;
         text-align: center;
 
         li {
-          padding: 10px;
-          box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+          padding: 20px;
         }
 
         .image-wrapper {
           border: 10px solid #fff;
+          box-shadow: 0 2px 3px rgba(0,0,0,0.2);
         }
       }
     }
