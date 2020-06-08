@@ -133,16 +133,22 @@ class Home extends React.Component {
             <div className="copy-content">
               <h2>MENGAPA KAMI</h2>
               <div className="list-advantage">
-                <span className="fa-stack"></span>
-                <span>LEGALITAS LENGKAP</span>
+                <span className="fa-stack">
+                  <i className="fas fa-check-circle"></i>
+                </span>
+                <span className="copy-writing">LEGALITAS LENGKAP</span>
               </div>
               <div className="list-advantage">
-                <span className="fa-stack"></span>
-                <span>ANDAL DAN BERPENGALAMAN</span>
+                <span className="fa-stack">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                <span className="copy-writing">ANDAL DAN BERPENGALAMAN</span>
               </div>
               <div className="list-advantage">
-                <span className="fa-stack"></span>
-                <span>BERAGAM DESTINASI DAN PENGALAMAN</span>
+                <span className="fa-stack">
+                  <i class="fas fa-check-circle"></i>
+                </span>
+                <span className="copy-writing">BERAGAM DESTINASI DAN PENGALAMAN</span>
               </div>
             </div>
             <div className="copy-image">
