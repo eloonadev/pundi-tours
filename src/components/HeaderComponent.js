@@ -8,7 +8,7 @@ const HeaderComponent = props => (
       <div className="navigation--toggle">
         <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
-      <div className="navigation--logo"><a href="/">THE LOGO</a></div>
+      <div className="navigation--logo"><a href="/"><img style={{ height:"40px"}} src={require("../assets/pundi-logo.png")} alt="pundi-logo" /></a></div>
       <div className="spacer" />
       <div className="navigation--items">
         <ul>
