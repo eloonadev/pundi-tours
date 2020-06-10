@@ -54,6 +54,7 @@ const Footer = () => (
       <a href="https://www.facebook.com/punditours/" target="_blank" rel="noopener noreferrer">
         <i class="fab fa-facebook"></i>
       </a>
+      <span>Copyright PT. Dwi Pundi Wisata - All Right Reserved</span>
     </div>
   </footer>
 );
