@@ -1,5 +1,6 @@
 import React from 'react';
 import DrawerToggleButton from './DrawerToggleButton';
+import { Link } from 'react-router-dom';
 import './HeaderComponent.scss';
 
 const HeaderComponent = props => (
@@ -13,7 +14,7 @@ const HeaderComponent = props => (
       <div className="navigation--items">
         <ul>
           <li><a href="/">BERANDA</a></li>
-          <li><a href="/">TENTANG KAMI</a></li>
+          <li><Link to="/aboutus">TENTANG KAMI</Link></li>
           <li><a href="/">WISATA</a></li>
           <li><a href="/">LAYANAN LAIN</a></li>
           <li><a href="/">MENGAPA KAMI</a></li>

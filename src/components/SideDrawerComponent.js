@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./SideDrawerComponent.scss";
 
 const sideDrawerComponent = props => {
@@ -11,7 +12,7 @@ const sideDrawerComponent = props => {
       <div className="logo"><a href="/">THE LOGO</a></div>
       <ul>
         <li><a href="/">Beranda</a></li>
-        <li><a href="/">Tentang Kami</a></li>
+        <li><Link to="/aboutus">TENTANG KAMI</Link></li>
         <li><a href="/">Wisata</a></li>
         <li><a href="/">Layanan Lain</a></li>
         <li><a href="/">Mengapa Kami</a></li>
