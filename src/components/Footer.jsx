@@ -33,7 +33,7 @@ const Footer = () => (
             <i className="fab fa-whatsapp"></i>
           </div>
           <div className="num">
-            <h4>Phone / Whats App</h4>
+            <h4>Phone / WhatsApp</h4>
             <p>+62 821 6967 1918 (Office)</p>
             <p>+62 811 6926 888 (Mr.Sampun)</p>
             <p>+62 878 7447 1460 (Mr.Akbar)</p>
@@ -46,20 +46,24 @@ const Footer = () => (
           <div className="num">
             <h4>Email</h4>
             <p>travel@pundi-tours.com</p>
-            <p>punditours01@gmail.com (Mr.Akbar)</p>
+            <p>punditours01@gmail.com (Mr.Sampun)</p>
             <p>punditours02@gmail.com (Mr.Akbar)</p>
           </div>
         </div>
       </div>
     </div>
     <div className="footer--social">
-      <a href="https://www.instagram.com/punditours/" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-instagram"></i>
-      </a>
-      <a href="https://www.facebook.com/punditours/" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-facebook"></i>
-      </a>
-      <span>Copyright PT. Dwi Pundi Wisata - All Right Reserved</span>
+      <div className="icon">
+        <a href="https://www.instagram.com/punditours/" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/punditours/" target="_blank" rel="noopener noreferrer">
+          <i className="fab fa-facebook"></i>
+        </a>
+      </div>
+      <div className="pt">
+        <p>Copyright PT. Dwi Pundi Wisata - All Right Reserved</p>
+      </div>
     </div>
   </footer>
 );

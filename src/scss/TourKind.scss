@@ -97,6 +97,15 @@
     .card-wrapper {
       padding-bottom: 30px;
       width: 100%;
+
+      .copy {
+        display: block;
+
+        &--content {
+          padding: 20px;
+          text-align: center;
+        }
+      }
     }
 
     .image {
