@@ -1,0 +1,75 @@
+.hero-service {
+  text-align: center;
+
+  &--inner {
+    padding: 80px;
+    margin: 0 auto;
+    width: 100%;
+
+    h2 {
+      font-size: 30px;
+      font-weight: 300;
+      line-height: 31px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      -webkit-font-smoothing: antialiased;
+      padding: 0;
+      margin: 0;
+      padding-bottom: 40px;
+      color: #282828;
+    }
+
+    .content-wrapper {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      padding: 20px;
+      justify-content: center;
+      justify-items: center;
+      align-items: center;
+
+      .card-content {
+        border-radius: 20px;
+        box-shadow: 60px 40px 100px rgba(22,27,84,0.25);
+        margin: 10px;
+        padding: 50px 15px;
+        min-width: 300px;
+
+        i {
+          color: #4a4a4a;
+          font-size: 50px;
+          padding-bottom: 20px;
+        }
+
+        .copy-wrapper {
+
+          h3 {
+            margin: 0;
+            margin-bottom: 13px;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 20px;
+            text-transform: uppercase;
+            vertical-align: middle;
+            letter-spacing: 1px;
+            color: #282828;
+          }
+
+          p {
+            font-size: 15px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 300;
+            line-height: 22px;
+            color: #4c4c4c;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-service--inner {
+    
+  }
+}
