@@ -22,16 +22,14 @@
       margin: 0 auto;
 
       ul {
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
         list-style-type: none;
-        margin-left: 60px;
-        min-width: 270px;
-        text-align: center;
-
-        li {
-          padding: 20px;
-        }
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        padding: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
 
         .image-wrapper {
           border: 10px solid #fff;
