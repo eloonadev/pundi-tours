@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 import AboutUs from './pages/AboustUs';
+import WhyUs from './pages/WhyUs';
 
 const AppRoute = ({ component: Component, layout: Layout, ...rest}) => (
   <Route 
@@ -39,6 +40,12 @@ function App() {
           path="/aboutus"
           layout={MainLayout}
           component={AboutUs}
+          exact
+        />
+        <AppRoute
+          path="/whyus"
+          layout={MainLayout}
+          component={WhyUs}
           exact
         />
       </Switch>

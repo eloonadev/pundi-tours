@@ -13,12 +13,12 @@ const HeaderComponent = props => (
       <div className="spacer" />
       <div className="navigation--items">
         <ul>
-          <li><a href="/">BERANDA</a></li>
+          <li><Link to="/">BERANDA</Link></li>
           <li><Link to="/aboutus">TENTANG KAMI</Link></li>
-          <li><a href="/">WISATA</a></li>
-          <li><a href="/">LAYANAN LAIN</a></li>
-          <li><a href="/">MENGAPA KAMI</a></li>
-          <li><a href="/">KONTAK</a></li>
+          <li><Link to="/">WISATA</Link></li>
+          <li><Link to="/">LAYANAN LAIN</Link></li>
+          <li><Link to="/whyus">MENGAPA KAMI</Link></li>
+          <li><Link to="/">KONTAK</Link></li>
         </ul>
       </div>
     </nav>
