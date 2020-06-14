@@ -47,11 +47,21 @@
       font-weight: 500;
       font-size: 12px;
       letter-spacing: 1px;
+      padding-bottom: 12px;
+      padding-top: 12px;
     }
 
     &--items a:hover,
     &--items a:active {
       color: #4a4a4a;
+    }
+
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+
+    .dropdown-menu {
+      display: none;
     }
   }
 }

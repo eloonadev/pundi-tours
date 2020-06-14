@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import AboutUs from './pages/AboustUs';
 import WhyUs from './pages/WhyUs';
+import Contact from './pages/Contact';
+import Tourism from './pages/Tourism';
 
 const AppRoute = ({ component: Component, layout: Layout, ...rest}) => (
   <Route 
@@ -46,6 +48,18 @@ function App() {
           path="/whyus"
           layout={MainLayout}
           component={WhyUs}
+          exact
+        />
+        <AppRoute
+          path="/contact"
+          layout={MainLayout}
+          component={Contact}
+          exact
+        />
+         <AppRoute
+          path="/tourism"
+          layout={MainLayout}
+          component={Tourism}
           exact
         />
       </Switch>
