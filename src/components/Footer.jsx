@@ -47,7 +47,7 @@ const Footer = () => (
             <h4>Email</h4>
             <p>travel@pundi-tours.com</p>
             <p>punditours01@gmail.com (Mr.Sampun)</p>
-            <p>punditours02@gmail.com (Mr.Akbar)</p>
+            <p>pundiwisata02@gmail.com (Mr.Akbar)</p>
           </div>
         </div>
       </div>

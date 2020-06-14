@@ -16,7 +16,8 @@ const sideDrawerComponent = props => {
         <li><Link to="/">WISATA</Link></li>
         <li><Link to="/">LAYANAN LAIN</Link></li>
         <li><Link to="/whyus">MENGAPA KAMI</Link></li>
-        <li><Link to="/contact">KONTAK</Link></li>
+        <li><Link to="/galerry">GALLERY</Link></li>
+        <li><Link to="/">KONTAK</Link></li>
       </ul>
     </nav>
   )
