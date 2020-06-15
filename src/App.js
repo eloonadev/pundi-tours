@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import AboutUs from './pages/AboustUs';
 import WhyUs from './pages/WhyUs';
-import Contact from './pages/Contact';
+import Gallery from './pages/Gallery';
 import Tourism from './pages/Tourism';
 import OtherService from './pages/OtherService';
 
@@ -52,9 +52,9 @@ function App() {
           exact
         />
         <AppRoute
-          path="/contact"
+          path="/gallery"
           layout={MainLayout}
-          component={Contact}
+          component={Gallery}
           exact
         />
          <AppRoute

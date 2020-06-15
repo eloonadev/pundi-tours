@@ -5,7 +5,7 @@ import './Home.scss';
 
 import TourKind from '../sections/Home/TourKind';
 import Intro from '../sections/Home/Intro';
-import OurTrip from '../sections/Home/OurTrip';
+// import OurTrip from '../sections/Home/OurTrip';
 import WhyUs from '../sections/Home/WhyUs';
 import OurService from '../sections/Home/OurService';
 
@@ -30,9 +30,9 @@ class Home extends React.Component {
 
         <TourKind />
         <Intro />
-        <OurTrip />
-        <WhyUs />
         <OurService />
+        {/* <OurTrip /> */}
+        <WhyUs />
       </div>
     );
   }

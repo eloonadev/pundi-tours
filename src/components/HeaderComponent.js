@@ -32,7 +32,7 @@ const HeaderComponent = props => (
             </ul>
           </li>
           <li><Link to="/whyus">MENGAPA KAMI</Link></li>
-          <li><Link to="/galerry">GALLERY</Link></li>
+          <li><Link to="/gallery">GALLERY</Link></li>
           <li><Link style={{ background: "#4c4c4c", color: "#fff", padding: "10px", borderRadius: "2px" }}to="/">KONTAK</Link></li>
         </ul>
       </div>
