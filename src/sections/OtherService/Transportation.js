@@ -2,7 +2,7 @@ import React from 'react';
 import '../../scss/Transportation.scss';
 
 const Transportation = () => (
-  <section className="hero-transport">
+  <section className="hero-transport" id="#transportation">
     <div className="hero-transport--inner">
       <div className="content-wrapper">
         <h2>TRANSPORTASI</h2>

@@ -24,11 +24,11 @@ const HeaderComponent = props => (
           </li>
           <li className="dropdown"><Link to="/" className="dropdown-toggle" data-toggle="dropdown">LAYANAN LAIN<span class="caret"></span></Link>
             <ul className="dropdown-menu">
-              <li><Link to="/other">MICE</Link></li>
-              <li><Link to="/">Tiket</Link></li>
-              <li><Link to="/">Hotel</Link></li>
-              <li><Link to="/">Transportasi</Link></li>
-              <li><Link to="/">Multi Payment Service</Link></li>
+              <li><Link to="/other/mice">MICE</Link></li>
+              <li><Link to="/other/ticket">Tiket</Link></li>
+              <li><Link to="/other/hotel">Hotel</Link></li>
+              <li><Link to="/other/transportation">Transportasi</Link></li>
+              <li><Link to="/other/payment">Multi Payment Service</Link></li>
             </ul>
           </li>
           <li><Link to="/whyus">MENGAPA KAMI</Link></li>

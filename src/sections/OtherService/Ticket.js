@@ -2,7 +2,7 @@ import React from 'react';
 import '../../scss/Ticket.scss';
 
 const Ticket = () => (
-  <section className="hero-ticket">
+  <section className="hero-ticket" id="#ticket">
     <div className="hero-ticket--inner">
       <div className="content-wrapper">
         <h2>TIKET</h2>

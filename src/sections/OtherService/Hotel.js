@@ -2,7 +2,7 @@ import React from 'react';
 import '../../scss/Hotel.scss';
 
 const Hotel = () => (
-  <section className="hero-hotel">
+  <section className="hero-hotel" id="#hotel">
     <div className="hero-hotel--inner">
       <div className="content-wrapper">
         <h2>Hotel</h2>

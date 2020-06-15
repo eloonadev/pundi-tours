@@ -2,7 +2,7 @@ import React from 'react';
 import '../../scss/Mice.scss';
 
 const Mice = () => (
-  <section className="hero-mice">
+  <section className="hero-mice" id="#mice">
     <div className="hero-mice--inner">
       <div className="content-wrapper">
         <h2>MICE</h2>
