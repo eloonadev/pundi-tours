@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.scss';
 
 const Footer = () => (
-  <footer className="footer">
+  <footer className="footer" id="footer">
     <div className="footer--content">
       <div className="first-col">
         <img style={{ height: "60px" }} src={require("../assets/pundi-logo.png")} alt="PundiTourLogo" />

@@ -33,7 +33,7 @@ const HeaderComponent = props => (
           </li>
           <li><Link to="/whyus">MENGAPA KAMI</Link></li>
           <li><Link to="/gallery">GALLERY</Link></li>
-          <li><Link style={{ background: "#4c4c4c", color: "#fff", padding: "10px", borderRadius: "2px" }}to="/">KONTAK</Link></li>
+          <li><a style={{ background: "#4c4c4c", color: "#fff", padding: "10px", borderRadius: "2px" }} href="#footer">KONTAK</a></li>
         </ul>
       </div>
     </nav>
