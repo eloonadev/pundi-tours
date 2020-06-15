@@ -23,7 +23,7 @@ const TourKind = () => (
             <i className="fa fa-bus fa-2x"></i>
           </div>
           <div className="copy--content">
-            <h3>Tour Domestik</h3>
+            <h3>Tour Indonesia</h3>
             <p>Mulai dari Belitung hingga Bali, Lombok hingga Kalimantan, serta beragam destinasi wisata di Indonesia.</p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const TourKind = () => (
             <i className="fa fa-plane fa-2x icon"></i>
           </div>
           <div className="copy--content">
-            <h3>Tour International</h3>
+            <h3>Tour Luar Negeri</h3>
             <p>Perjalanan nyaman dan menyenangkan dengan berbagai pilihan destinasi mulai dari Asia, Eropa hingga Amerika.</p>
           </div>
         </div>
