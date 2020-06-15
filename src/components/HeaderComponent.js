@@ -17,17 +17,18 @@ const HeaderComponent = props => (
           <li><Link to="/aboutus">TENTANG KAMI</Link></li>
           <li className="dropdown"><Link to="/" className="dropdown-toggle" data-toggle="dropdown">WISATA<span class="caret"></span></Link>
             <ul className="dropdown-menu">
-              <li><Link to="/tourism" className="dropdown-content">Tour Domestik</Link></li>
-              <li><Link to="/" className="dropdown-content">Tour Internasional</Link></li>
+              <li><Link to="/tourism" className="dropdown-content">Tour Indonesia</Link></li>
+              <li><Link to="/" className="dropdown-content">Tour Luar Negeri</Link></li>
               <li><Link to="/" className="dropdown-content">Special Interest Tour</Link></li>
             </ul>
           </li>
           <li className="dropdown"><Link to="/" className="dropdown-toggle" data-toggle="dropdown">LAYANAN LAIN<span class="caret"></span></Link>
             <ul className="dropdown-menu">
+              <li><Link to="/other">MICE</Link></li>
               <li><Link to="/">Tiket</Link></li>
-              <li><Link to="/">Voucher Hotel</Link></li>
-              <li><Link to="/">Rental Transportasi</Link></li>
-              <li><Link to="/">Layanan Pembayaran</Link></li>
+              <li><Link to="/">Hotel</Link></li>
+              <li><Link to="/">Transportasi</Link></li>
+              <li><Link to="/">Multi Payment Service</Link></li>
             </ul>
           </li>
           <li><Link to="/whyus">MENGAPA KAMI</Link></li>

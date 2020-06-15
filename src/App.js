@@ -8,6 +8,7 @@ import AboutUs from './pages/AboustUs';
 import WhyUs from './pages/WhyUs';
 import Contact from './pages/Contact';
 import Tourism from './pages/Tourism';
+import OtherService from './pages/OtherService';
 
 const AppRoute = ({ component: Component, layout: Layout, ...rest}) => (
   <Route 
@@ -60,6 +61,12 @@ function App() {
           path="/tourism"
           layout={MainLayout}
           component={Tourism}
+          exact
+        />
+         <AppRoute
+          path="/other"
+          layout={MainLayout}
+          component={OtherService}
           exact
         />
       </Switch>
