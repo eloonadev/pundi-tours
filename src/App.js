@@ -8,11 +8,11 @@ import AboutUs from './pages/AboustUs';
 import WhyUs from './pages/WhyUs';
 import Gallery from './pages/Gallery';
 import Tourism from './pages/Tourism';
-// import OtherService from './pages/OtherService';
 import Mice from './sections/OtherService/Mice';
 import Ticket from './sections/OtherService/Ticket';
 import Hotel from './sections/OtherService/Hotel';
 import Transportation from './sections/OtherService/Transportation';
+import Payment from './sections/OtherService/Payment';
 
 const AppRoute = ({ component: Component, layout: Layout, ...rest}) => (
   <Route 
@@ -89,6 +89,12 @@ function App() {
           path="/other/transportation"
           layout={MainLayout}
           component={Transportation}
+          exact
+        />
+        <AppRoute
+          path="/other/payment"
+          layout={MainLayout}
+          component={Payment}
           exact
         />
       </Switch>
