@@ -10,7 +10,7 @@ const sideDrawerComponent = props => {
   return (
     <nav className={drawerClasses}>
       <div className="logo"><img style={{ height: "40px" }} src={require("../assets/pundi-logo.png")} alt="pundi-logo" /></div>
-      <ul>
+      <ul className="navdrawer">
         <li onClick={props.click}><Link to="/">BERANDA</Link></li>
         <li onClick={props.click}><Link to="/aboutus">TENTANG KAMI</Link></li>
         <li onClick={props.click}><Link to="/">WISATA</Link></li>

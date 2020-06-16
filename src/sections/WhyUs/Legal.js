@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../scss/Legal.scss';
+import { Link } from 'react-router-dom';
 
 const Legal = () => (
   <section className="hero-legal">
@@ -8,7 +9,7 @@ const Legal = () => (
         <h2>LEGALITAS LENGKAP</h2>
         <p>Pastikan anda mempercayakan perjalanan wisata anda dengan Biro Perjalanan Wisata yang terpercaya. Pundi Tours adalah perusahaan resmi berbadan hukum yaitu PT. DWI PUNDI WISATA.</p>
         <div className="btn-wrapper">
-          <a className="button" href="/">LIHAT PROFIL PERUSAHAAN</a>
+          <Link className="button" to="/aboutus">LIHAT PROFIL PERUSAHAAN</Link>
         </div>
       </div>
       <div className="image-wrapper">

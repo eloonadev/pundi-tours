@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../scss/Legal.scss';
 
 const Service = () => (
@@ -8,8 +9,8 @@ const Service = () => (
         <h2>BERAGAM DESTINASI DAN LAYANAN</h2>
         <p>Kami menyediakan berbagai paket wisata ke banyak destinasi baik dalam maupun luar negeri. Kami juga menyediakan layanan lainnya demi memberikan pelayanan prima kepada klien kami.</p>
         <div className="btn-wrapper">
-          <a className="button" href="/">Paket Wisata</a>
-          <a className="button" href="/">Layanan Lainnya</a>
+          <Link className="button" to="/">Paket Wisata</Link>
+          {/* <Link className="button" to="/">Layanan Lainnya</Link> */}
         </div>
       </div>
       <div className="image-wrapper">

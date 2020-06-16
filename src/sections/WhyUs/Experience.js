@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../scss/Experience.scss';
 
 const Experience = () => (
@@ -11,7 +12,7 @@ const Experience = () => (
         <h2>ANDAL DAN BERPENGALAMAN</h2>
         <p>Menangani perjalanan wisata sejak 2003 merupakan perjalanan panjang bagi sebuah Biro Perjalanan Wisata. Kami terbukti menjadi perusahaan yang dapat diandalkan dan sangat berpengalaman dalam menangani banyak sekali kebutuhan perjalanan wisata klien kami baik dalam maupun luar negeri.</p>
         <div className="btn-wrapper">
-          <a className="button" href="/">Tentang Kami</a>
+          <Link className="button" to="/aboutus">Tentang Kami</Link>
         </div>
       </div>
     </div>
