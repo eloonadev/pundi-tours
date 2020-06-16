@@ -14,6 +14,11 @@ const sideDrawerComponent = props => {
     drawerClasses = 'side-drawer open'
   }
 
+  let chevClass = "fas fa-chevron-down"
+  if (props.toggle) {
+    chevClass = "fas fa-chevron-up"
+  }
+
   return (
     <nav className={drawerClasses}>
       <div className="logo"><img style={{ height: "40px" }} src={require("../assets/pundi-logo.png")} alt="pundi-logo" /></div>
@@ -21,7 +26,7 @@ const sideDrawerComponent = props => {
         <li onClick={props.click}><Link to="/">BERANDA</Link></li>
         <li onClick={props.click}><Link to="/aboutus">TENTANG KAMI</Link></li>
         <li onClick={props.click}><Link to="/">WISATA</Link></li>
-        <li onClick={props.toggleClick} style={{ color: "#000", fontSize: "1.5rem"}}>LAYANAN LAIN<span><i style={{ marginLeft: "4px"}} className="fas fa-chevron-down"></i></span>
+        <li onClick={props.toggleClick} style={{ color: "#000", fontSize: "1.5rem"}}>LAYANAN LAIN<span ><i style={{ marginLeft: "4px"}} className={chevClass}></i></span>
           <ul className={accordion}>
             <li onClick={props.click}><Link to="/other/mice">MICE</Link></li>
             <li onClick={props.click}><Link to="/other/ticket">Tiket</Link></li>

@@ -65,6 +65,10 @@
   display: block;
 }
 
+.chevron-up {
+  transform: rotate(-180deg);
+}
+
 @media (min-width: 920px) {
   .side-drawer {
     display: none;
