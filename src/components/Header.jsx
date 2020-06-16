@@ -30,7 +30,7 @@ class Header extends React.Component {
     return (
       <div>
         <HeaderComponent drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawerComponent show={this.state.sideDrawerOpen} />
+        <SideDrawerComponent show={this.state.sideDrawerOpen} click={this.backdropClickHandler} />
         {backdrop}
       </div>
     );
