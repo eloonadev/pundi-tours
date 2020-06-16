@@ -9,12 +9,20 @@ const sideDrawerComponent = props => {
   }
   return (
     <nav className={drawerClasses}>
-      <div className="logo"><img style={{ height:"40px"}} src={require("../assets/pundi-logo.png")} alt="pundi-logo" /></div>
+      <div className="logo"><img style={{ height: "40px" }} src={require("../assets/pundi-logo.png")} alt="pundi-logo" /></div>
       <ul>
         <li><Link to="/">BERANDA</Link></li>
         <li><Link to="/aboutus">TENTANG KAMI</Link></li>
         <li><Link to="/">WISATA</Link></li>
-        <li><Link to="/">LAYANAN LAIN</Link></li>
+        <li>LAYANAN LAIN<span><i class="fas fa-chevron-down"></i></span>
+          <ul>
+            <li><Link to="/other/mice">MICE</Link></li>
+            <li><Link to="/other/ticket">Tiket</Link></li>
+            <li><Link to="/other/hotel">Hotel</Link></li>
+            <li><Link to="/other/transportation">Transportasi</Link></li>
+            <li><Link to="/other/payment">Multi Payment Service</Link></li>
+          </ul>
+        </li>
         <li><Link to="/whyus">MENGAPA KAMI</Link></li>
         <li><Link to="/gallery">GALLERY</Link></li>
         <li><Link to="/">KONTAK</Link></li>
