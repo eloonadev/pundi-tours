@@ -18,7 +18,7 @@
 .side-drawer ul {
   height: 100%;
   list-style: none;
-  display: flex;
+  // display: flex;
   flex-direction: column;
   margin-left: 40px;
 }
@@ -40,7 +40,7 @@
 
 .side-drawer li:hover,
 .side-drawer li:active {
-  background-color: #f6f6f6;
+  color: #f6f6f6;
 }
 
 .logo {
@@ -55,6 +55,14 @@
   color: #000;
   text-decoration: none;
   font-size: 1.5rem;
+}
+
+.accordion {
+  display: none;
+}
+
+.accordion.open {
+  display: block;
 }
 
 @media (min-width: 920px) {
