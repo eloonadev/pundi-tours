@@ -10,7 +10,7 @@ const Mice = () => (
         <p>Pundi Tours berpengalaman dalam penyelenggaraan MICE (Meeting, Incentive, Conference, Exhibition) dari berbagai perusahaan maupun instansi pemerintahan.</p>
       </div>
       <div className="image-wrapper">
-        <img src="https://images.pexels.com/photos/3801439/pexels-photo-3801439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="whyus" />
+       <img src={require("../../assets/MICE.jpg")} alt="MICE Service" />
       </div>
     </div>
   </section>

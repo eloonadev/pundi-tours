@@ -5,7 +5,7 @@ const Misi = () => (
   <section className="hero-misi">
     <div className="hero-misi--inner">
       <div className="copy-image">
-        <img src="https://images.pexels.com/photos/3801439/pexels-photo-3801439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="whyus" sizes="(width: 325px) 768px" />       
+       <img src={require("../../assets/misi.JPG")} alt="Misi" />
       </div>
       <div className="copy-content">
         <h2>Misi</h2>

@@ -14,7 +14,7 @@ const sideDrawerComponent = props => {
         <li><Link to="/">BERANDA</Link></li>
         <li><Link to="/aboutus">TENTANG KAMI</Link></li>
         <li><Link to="/">WISATA</Link></li>
-        <li>LAYANAN LAIN<span><i class="fas fa-chevron-down"></i></span>
+        <li style={{ color: "#000", fontSize: "1.2rem"}}>LAYANAN LAIN<span><i style={{ marginLeft: "4px"}} className="fas fa-chevron-down"></i></span>
           <ul>
             <li><Link to="/other/mice">MICE</Link></li>
             <li><Link to="/other/ticket">Tiket</Link></li>
@@ -25,7 +25,7 @@ const sideDrawerComponent = props => {
         </li>
         <li><Link to="/whyus">MENGAPA KAMI</Link></li>
         <li><Link to="/gallery">GALLERY</Link></li>
-        <li><Link to="/">KONTAK</Link></li>
+        <li><a style={{ background: "#4c4c4c", color: "#fff", padding: "10px", borderRadius: "2px" }} href="#footer">KONTAK</a></li>
       </ul>
     </nav>
   )

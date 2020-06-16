@@ -10,7 +10,7 @@ const Ticket = () => (
         <p>Kami menyediakan layanan pemesanan tiket pesawat dalam dan luar negeri, tiket Pelni, tiket ferry ke Singapore dan Malaysia, tiket kereta api, dan lain-lain.</p>
       </div>
       <div className="image-wrapper">
-        <img src="https://images.pexels.com/photos/3801439/pexels-photo-3801439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="whyus" />
+        <img src={require("../../assets/TIKET.jpeg")} alt="Tiket" />
       </div>
     </div>
   </section>

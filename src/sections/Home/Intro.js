@@ -5,7 +5,7 @@ const Intro = () => (
   <section className="hero-intro">
     <div className="hero-intro--inner">
       <div className="image-content">
-        <img src="https://images.pexels.com/photos/3777920/pexels-photo-3777920.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="WhoIsUs" />
+        <img src={require("../../assets/siapakami.JPG")} alt="PundiTeam" />
       </div>
       <div className="copy-content">
         <h2>SIAPA KAMI</h2>

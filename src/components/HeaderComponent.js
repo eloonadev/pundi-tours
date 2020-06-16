@@ -15,14 +15,14 @@ const HeaderComponent = props => (
         <ul>
           <li><Link to="/">BERANDA</Link></li>
           <li><Link to="/aboutus">TENTANG KAMI</Link></li>
-          <li className="dropdown"><Link to="/" className="dropdown-toggle" data-toggle="dropdown">WISATA<span class="caret"></span></Link>
+          <li className="dropdown"><Link to="/" className="dropdown-toggle" data-toggle="dropdown">WISATA<span><i style={{ marginLeft: "4px"}} className="fas fa-chevron-down"></i></span></Link>
             <ul className="dropdown-menu">
               <li><Link to="/tourism" className="dropdown-content">Tour Indonesia</Link></li>
               <li><Link to="/" className="dropdown-content">Tour Luar Negeri</Link></li>
               <li><Link to="/" className="dropdown-content">Special Interest Tour</Link></li>
             </ul>
           </li>
-          <li className="dropdown"><Link to="/" className="dropdown-toggle" data-toggle="dropdown">LAYANAN LAIN<span class="caret"></span></Link>
+          <li className="dropdown"><Link to="/" className="dropdown-toggle" data-toggle="dropdown">LAYANAN LAIN<span><i style={{ marginLeft: "4px"}} className="fas fa-chevron-down"></i></span></Link>
             <ul className="dropdown-menu">
               <li><Link to="/other/mice">MICE</Link></li>
               <li><Link to="/other/ticket">Tiket</Link></li>

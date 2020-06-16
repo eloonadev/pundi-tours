@@ -10,7 +10,7 @@ const Transportation = () => (
         <p>Pundi Tours menyediakan berbagai pilihan transportasi mulai dari Sedan, Van, Mini Bus, hingga Big Bus di destinasi-destinasi wisata baik dalam maupun luar negeri.</p>
       </div>
       <div className="image-wrapper">
-        <img src="https://images.pexels.com/photos/3801439/pexels-photo-3801439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="whyus" />
+        <img src={require("../../assets/TRANSPORTASI.jpeg")} alt="Transportasi" />
       </div>
     </div>
   </section>
