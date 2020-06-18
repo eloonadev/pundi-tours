@@ -13,6 +13,9 @@ import Ticket from './sections/OtherService/Ticket';
 import Hotel from './sections/OtherService/Hotel';
 import Transportation from './sections/OtherService/Transportation';
 import Payment from './sections/OtherService/Payment';
+import Domestic from './sections/Tourism/Domestic';
+import International from './sections/Tourism/International';
+import Special from './sections/Tourism/Special';
 
 const AppRoute = ({ component: Component, layout: Layout, ...rest}) => (
   <Route 
@@ -95,6 +98,24 @@ function App() {
           path="/other/payment"
           layout={MainLayout}
           component={Payment}
+          exact
+        />
+        <AppRoute
+          path="/tourism/tour-indonesia"
+          layout={MainLayout}
+          component={Domestic}
+          exact
+        />
+        <AppRoute
+          path="/tourism/tour-international"
+          layout={MainLayout}
+          component={International}
+          exact
+        />
+        <AppRoute
+          path="/tourism/special-tour"
+          layout={MainLayout}
+          component={Special}
           exact
         />
       </Switch>

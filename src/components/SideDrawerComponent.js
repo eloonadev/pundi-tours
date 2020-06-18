@@ -37,9 +37,9 @@ const sideDrawerComponent = props => {
         <li onClick={props.click}><Link to="/aboutus">TENTANG KAMI</Link></li>
         <li onClick={props.toggleClickTwo} style={{ color: "#000", fontSize: "1.5rem" }}>WISATA<span><i style={{ marginLeft: "4px" }} className={chevClassTwo}></i></span>
           <ul className={accordionTwo}>
-            <li onClick={props.click}><Link to="/">Tour Indonesia</Link></li>
-            <li onClick={props.click}><Link to="/">Tour Luar Negeri</Link></li>
-            <li onClick={props.click}><Link to="/">Special Interest Tour</Link></li>
+            <li onClick={props.click}><Link to="/tourism/tour-indonesia">Tour Indonesia</Link></li>
+            <li onClick={props.click}><Link to="/tourism/tour-international">Tour Luar Negeri</Link></li>
+            <li onClick={props.click}><Link to="/tourism/special-tour">Special Interest Tour</Link></li>
           </ul>
         </li>
         <li onClick={props.toggleClick} style={{ color: "#000", fontSize: "1.5rem" }}>LAYANAN LAIN<span><i style={{ marginLeft: "4px" }} className={chevClass}></i></span>
