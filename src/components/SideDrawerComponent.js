@@ -3,10 +3,15 @@ import { Link } from 'react-router-dom';
 import "./SideDrawerComponent.scss";
 
 const sideDrawerComponent = props => {
-
+// console.log(props)
   let accordion = "accordion";
   if (props.toggle) {
     accordion = "accordion open"
+  }
+
+  let accordionTwo = "accordion";
+  if (props.toggleTwo) {
+    accordionTwo = "accordion open"
   }
 
   let drawerClasses = 'side-drawer';
@@ -19,14 +24,25 @@ const sideDrawerComponent = props => {
     chevClass = "fas fa-chevron-up"
   }
 
+  let chevClassTwo = "fas fa-chevron-down"
+  if (props.toggleTwo) {
+    chevClassTwo = "fas fa-chevron-up"
+  }
+
   return (
     <nav className={drawerClasses}>
       <div className="logo"><img style={{ height: "40px" }} src={require("../assets/pundi-logo.png")} alt="pundi-logo" /></div>
       <ul className="navdrawer">
         <li onClick={props.click}><Link to="/">BERANDA</Link></li>
         <li onClick={props.click}><Link to="/aboutus">TENTANG KAMI</Link></li>
-        <li onClick={props.click}><Link to="/">WISATA</Link></li>
-        <li onClick={props.toggleClick} style={{ color: "#000", fontSize: "1.5rem"}}>LAYANAN LAIN<span ><i style={{ marginLeft: "4px"}} className={chevClass}></i></span>
+        <li onClick={props.toggleClickTwo} style={{ color: "#000", fontSize: "1.5rem" }}>WISATA<span><i style={{ marginLeft: "4px" }} className={chevClassTwo}></i></span>
+          <ul className={accordionTwo}>
+            <li onClick={props.click}><Link to="/">Tour Indonesia</Link></li>
+            <li onClick={props.click}><Link to="/">Tour Luar Negeri</Link></li>
+            <li onClick={props.click}><Link to="/">Special Interest Tour</Link></li>
+          </ul>
+        </li>
+        <li onClick={props.toggleClick} style={{ color: "#000", fontSize: "1.5rem" }}>LAYANAN LAIN<span><i style={{ marginLeft: "4px" }} className={chevClass}></i></span>
           <ul className={accordion}>
             <li onClick={props.click}><Link to="/other/mice">MICE</Link></li>
             <li onClick={props.click}><Link to="/other/ticket">Tiket</Link></li>

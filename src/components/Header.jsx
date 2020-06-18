@@ -6,7 +6,8 @@ import BackdropComponent from './BackdropComponent';
 class Header extends React.Component {
   state = {
     sideDrawerOpen: false,
-    dropdown: false
+    dropdown: false,
+    dropdownTwo: false
   };
 
   drawerToggleClickHandler = () => {
@@ -27,6 +28,12 @@ class Header extends React.Component {
     });
   };
 
+  dropdownTwoToggle = () => {
+    this.setState((prevState) => {
+      return { dropdownTwo: !prevState.dropdownTwo }
+    });
+  };
+
   render() {
     let backdrop;
 
@@ -37,7 +44,14 @@ class Header extends React.Component {
     return (
       <div>
         <HeaderComponent drawerClickHandler={this.drawerToggleClickHandler} />
-        <SideDrawerComponent toggle={this.state.dropdown} toggleClick={this.dropdownToggle} show={this.state.sideDrawerOpen} click={this.backdropClickHandler} />
+        <SideDrawerComponent
+          toggle={this.state.dropdown}
+          toggleTwo={this.state.dropdownTwo}
+          toggleClick={this.dropdownToggle}
+          toggleClickTwo={this.dropdownTwoToggle}
+          show={this.state.sideDrawerOpen}
+          click={this.backdropClickHandler}
+        />
         {backdrop}
       </div>
     );
