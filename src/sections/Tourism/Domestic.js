@@ -2,18 +2,16 @@ import React from 'react';
 import '../../scss/Domestic.scss';
 
 const Domestic = () => (
-  <section className="hero-legal">
-    <div className="hero-legal--inner">
-      <div className="content-wrapper">
-        <h2>Tour Domestik</h2>
-        <ul>
-          <li>Domestic/Indonesian Market</li>
-          <li>ASEAN Market</li>
-          <li>All/Foreign Market</li>
-        </ul>
+  <section className="hero-tourind">
+    <div className="hero-tourind--inner">
+      <div className="wrapper">
+        <p>Domestic/Indonesian Market</p>
       </div>
-      <div className="image-wrapper">
-        <img src="https://images.pexels.com/photos/3801439/pexels-photo-3801439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="whyus" />
+      <div className="wrapper">
+        <p>ASEAN Market</p>
+      </div>
+      <div className="wrapper">
+        <p>All/Foreign Market</p>
       </div>
     </div>
   </section>
