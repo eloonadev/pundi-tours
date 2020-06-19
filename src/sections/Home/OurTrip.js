@@ -9,42 +9,38 @@ const OurTrip = () => (
         <ul className="grid-photo">
           <li className="grid-photo--list">
             <div className="image-wrapper">
-              <img src="https://images.pexels.com/photos/3060930/pexels-photo-3060930.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" style={{ width: "200px", height: "200px" }} />
+              <img src={require("../../assets/al_kaffah/landscape_one.png")} style={{ width: "200px", height: "200px" }} alt="Al Kaffah" />
+              <p>AL KAFFAH ELEMENTARY SCHOOL BATAM STUDY TOUR</p>
             </div>
           </li>
           <li className="grid-photo--list">
             <div className="image-wrapper">
-              <img src="https://images.pexels.com/photos/3060930/pexels-photo-3060930.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" style={{ width: "200px", height: "200px" }} />
+              <img src={require("../../assets/surabaya/surabaya.jpg")} style={{ width: "200px", height: "200px" }} alt="Tour with Surabayan" />
+              <p>BENCHMARK SIGHTSEEING OF SURABAYA CITY GOVERNMENT WITH THE MAJOR IBU RISMA</p>
             </div>
           </li>
           <li className="grid-photo--list">
             <div className="image-wrapper">
-              <img src="https://images.pexels.com/photos/3060930/pexels-photo-3060930.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" style={{ width: "200px", height: "200px" }} />
+              <img src={require("../../assets/samarinda/samarinda.JPG")} style={{ width: "200px", height: "200px" }} alt="Tour with Samarinda School" />
+              <p>FASHTABIQUL KHAIRAT ELEMENTARY SCHOOL SAMARINDA STUDY TOUR</p>
             </div>
           </li>
           <li className="grid-photo--list">
             <div className="image-wrapper">
-              <img src="https://images.pexels.com/photos/3060930/pexels-photo-3060930.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" style={{ width: "200px", height: "200px" }} />
+              <img src={require("../../assets/batam/batam.jpg")} style={{ width: "200px", height: "200px" }} alt="Tour with Batam School" />
+              <p>TEACHERS OF MUHAMMADIYAH VOCATIONAL HIGH SCHOOL BATAM WEEKEND TRIP</p>
             </div>
           </li>
           <li className="grid-photo--list">
             <div className="image-wrapper">
-              <img src="https://images.pexels.com/photos/3060930/pexels-photo-3060930.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" style={{ width: "200px", height: "200px" }} />
+              <img src={require("../../assets/meranti/meranti.jpg")} style={{ width: "200px", height: "200px" }} alt="Meeting Meranti Citi" />
+              <p>THE MEETING OF MERANTI CITY GOVERNMENT</p>
             </div>
           </li>
           <li className="grid-photo--list">
             <div className="image-wrapper">
-              <img src="https://images.pexels.com/photos/3060930/pexels-photo-3060930.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" style={{ width: "200px", height: "200px" }} />
-            </div>
-          </li>
-          <li className="grid-photo--list">
-            <div className="image-wrapper">
-              <img src="https://images.pexels.com/photos/3060930/pexels-photo-3060930.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" style={{ width: "200px", height: "200px" }} />
-            </div>
-          </li>
-          <li className="grid-photo--list">
-            <div className="image-wrapper">
-              <img src="https://images.pexels.com/photos/3060930/pexels-photo-3060930.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" style={{ width: "200px", height: "200px" }} />
+              <img src={require("../../assets/tiens/tiens.jpg")} style={{ width: "200px", height: "200px" }} alt="Tour with Tiens" />
+              <p>TIENS INDONESIA TOUR</p>
             </div>
           </li>
         </ul>
