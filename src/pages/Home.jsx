@@ -17,13 +17,13 @@ class Home extends React.Component {
         <section className="section-carousel">
           <Carousel showArrows={true}>
             <div>
-              <img src="https://images.pexels.com/photos/4557822/pexels-photo-4557822.jpeg?auto=compress&crop=focalpoints&cs=tinysrgb&fit=crop&h=1250.0&sharp=5&w=5000" alt="lapada" />
+              <img src={require("../assets/carousel-one.png")} alt="Carousel Pundi Tour" />
             </div>
             <div>
-              <img src="https://images.pexels.com/photos/4557822/pexels-photo-4557822.jpeg?auto=compress&crop=focalpoints&cs=tinysrgb&fit=crop&h=1250.0&sharp=5&w=5000" alt="lapada" />
+              <img src={require("../assets/carousel-two.png")} alt="Carousel Pundi Tour" />
             </div>
             <div>
-              <img src="https://images.pexels.com/photos/4557822/pexels-photo-4557822.jpeg?auto=compress&crop=focalpoints&cs=tinysrgb&fit=crop&h=1250.0&sharp=5&w=5000" alt="lapada" />
+              <img src={require("../assets/carousel-three.png")} alt="Carousel Pundi Tour" />
             </div>
           </Carousel>
         </section>

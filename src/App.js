@@ -16,9 +16,10 @@ import Payment from './sections/OtherService/Payment';
 import Domestic from './sections/Tourism/Domestic';
 import International from './sections/Tourism/International';
 import Special from './sections/Tourism/Special';
+import AlKaffah from './sections/Gallery/AlKaffah';
 
-const AppRoute = ({ component: Component, layout: Layout, ...rest}) => (
-  <Route 
+const AppRoute = ({ component: Component, layout: Layout, ...rest }) => (
+  <Route
     {...rest}
     render={props => (
       <Layout>
@@ -64,13 +65,13 @@ function App() {
           component={Gallery}
           exact
         />
-         <AppRoute
+        <AppRoute
           path="/tourism"
           layout={MainLayout}
           component={Tourism}
           exact
         />
-         <AppRoute
+        <AppRoute
           path="/other/mice"
           layout={MainLayout}
           component={Mice}
@@ -116,6 +117,12 @@ function App() {
           path="/tourism/special-tour"
           layout={MainLayout}
           component={Special}
+          exact
+        />
+        <AppRoute
+          path="/gallery/al-kaffah"
+          layout={MainLayout}
+          component={AlKaffah}
           exact
         />
       </Switch>
