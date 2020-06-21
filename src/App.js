@@ -17,6 +17,11 @@ import Domestic from './sections/Tourism/Domestic';
 import International from './sections/Tourism/International';
 import Special from './sections/Tourism/Special';
 import AlKaffah from './sections/Gallery/AlKaffah';
+import Surabaya from './sections/Gallery/Surabaya';
+import Samarinda from './sections/Gallery/Samarinda';
+import Batam from './sections/Gallery/Batam';
+import Meranti from './sections/Gallery/Meranti';
+import Tiens from './sections/Gallery/Tiens';
 
 const AppRoute = ({ component: Component, layout: Layout, ...rest }) => (
   <Route
@@ -123,6 +128,36 @@ function App() {
           path="/gallery/al-kaffah"
           layout={MainLayout}
           component={AlKaffah}
+          exact
+        />
+        <AppRoute
+          path="/gallery/surabaya"
+          layout={MainLayout}
+          component={Surabaya}
+          exact
+        />
+        <AppRoute
+          path="/gallery/samarinda"
+          layout={MainLayout}
+          component={Samarinda}
+          exact
+        />
+         <AppRoute
+          path="/gallery/batam"
+          layout={MainLayout}
+          component={Batam}
+          exact
+        />
+        <AppRoute
+          path="/gallery/meranti"
+          layout={MainLayout}
+          component={Meranti}
+          exact
+        />
+         <AppRoute
+          path="/gallery/tiens"
+          layout={MainLayout}
+          component={Tiens}
           exact
         />
       </Switch>

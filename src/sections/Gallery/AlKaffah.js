@@ -1,9 +1,10 @@
 import React from 'react';
+import '../../scss/AlKaffah.scss';
 
 const AlKaffah = () => (
-  <section className="hero-our-trip">
-    <div className="hero-our-trip--inner">
-      <h2>PERJALANAN KAMI</h2>
+  <section className="hero-al-kaffah">
+    <div className="hero-al-kaffah--inner">
+      <h2>AL KAFFAH ELEMENTARY SCHOOL BATAM STUDY TOUR</h2>
       {/* <button type="button" onClick={this.show}>Button</button> */}
       <div className="pundi-tour-porto">
         <ul className="grid-photo">

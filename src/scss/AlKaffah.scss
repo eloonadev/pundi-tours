@@ -1,4 +1,4 @@
-.hero-our-trip {
+.hero-al-kaffah {
   text-align: center;
 
   &--inner {
@@ -42,19 +42,7 @@
         .image-wrapper {
           border: 10px solid #fff;
           box-shadow: 0 2px 3px rgba(0,0,0,0.2);
-          cursor: pointer;
-          height: 300px;
           width: 270px;
-
-          p {
-            color: #4c4c4c;
-            text-decoration: none;
-            font-weight: 700;
-          }
-        }
-
-        .image-wrapper:hover {
-          box-shadow: 0 10px 10px rgba(0,0,0,0.2);
         }
       }
     }
@@ -62,7 +50,7 @@
 }
 
 @media (min-width: 1200px) {
-  .hero-our-trip--inner {
+  .hero-al-kaffah--inner {
     width: 1170px;
   }
 }
