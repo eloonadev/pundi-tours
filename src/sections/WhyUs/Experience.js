@@ -6,7 +6,7 @@ const Experience = () => (
   <section className="hero-experience">
     <div className="hero-experience--inner">
       <div className="image-wrapper">
-        <img src="https://images.pexels.com/photos/3801439/pexels-photo-3801439.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="whyus" />
+        <img src={require("../../assets/mengapa_kami/mengapa_kami.JPG")} alt="whyus" />
       </div>
       <div className="content-wrapper">
         <h2>ANDAL DAN BERPENGALAMAN</h2>
