@@ -76,34 +76,31 @@ class OurTrip extends React.Component {
                   </Link>
                 </div>
               </li>
+              <li className="grid-photo--list">
+                <div className={imgClass}>
+                  <Link to="/gallery/cycling">
+                    <img src={require("../../assets/cycling_tour/ct_1.jpeg")} style={{ width: "240px", height: "200px" }} alt="Cycling Tour" />
+                    <p>CYCLING TOUR</p>
+                  </Link>
+                </div>
+              </li>
+              <li className="grid-photo--list">
+                <div className={imgClass}>
+                  <Link to="/gallery/tapin">
+                    <img src={require("../../assets/tapin/tapin_1.jpeg")} style={{ width: "240px", height: "200px" }} alt="Cycling Tour" />
+                    <p>OFFICIAL TOUR OF TAPIN CITY GOVERNMENT WITH THE MAJOR BAPAK ARIFIN ARPAN</p>
+                  </Link>
+                </div>
+              </li>
+              <li className="grid-photo--list">
+                <div className={imgClass}>
+                  <Link to="/gallery/umroh">
+                    <img src={require("../../assets/umroh/umroh_1.jpeg")} style={{ width: "240px", height: "200px" }} alt="Cycling Tour" />
+                    <p>UMROH WITH PUNDI TOURS</p>
+                  </Link>
+                </div>
+              </li>
             </ul>
-            {/* <ul className={gridComClass}>
-              <li onClick={this.show} className="grid-photo--list">
-                <div className={imgComClass}>
-                  <img src={require("../../assets/al_kaffah/landscape_one.png")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-                </div>
-              </li>
-              <li onClick={this.show} className="grid-photo--list">
-                <div className={imgComClass}>
-                  <img src={require("../../assets/al_kaffah/al-kaffah-one.png")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-                </div>
-              </li>
-              <li onClick={this.show} className="grid-photo--list">
-                <div className={imgComClass}>
-                  <img src={require("../../assets/al_kaffah/al-kaffah-two.png")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-                </div>
-              </li>
-              <li onClick={this.show} className="grid-photo--list">
-                <div className={imgComClass}>
-                  <img src={require("../../assets/al_kaffah/al-kaffah-three.png")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-                </div>
-              </li>
-              <li onClick={this.show} className="grid-photo--list">
-                <div className={imgComClass}>
-                  <img src={require("../../assets/al_kaffah/al-kaffah-fou.png")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-                </div>
-              </li>
-            </ul> */}
           </div>
         </div>
       </section>

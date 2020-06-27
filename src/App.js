@@ -22,6 +22,9 @@ import Samarinda from './sections/Gallery/Samarinda';
 import Batam from './sections/Gallery/Batam';
 import Meranti from './sections/Gallery/Meranti';
 import Tiens from './sections/Gallery/Tiens';
+import Cycling from './sections/Gallery/Cycling';
+import Tapin from './sections/Gallery/Tapin';
+import Umroh from './sections/Gallery/Umroh';
 import Indonesia from './sections/Tourism/Domestic/Indonesia';
 import Asean from './sections/Tourism/Domestic/Asean';
 import Foreign from './sections/Tourism/Domestic/Foreign';
@@ -179,6 +182,24 @@ function App() {
           path="/gallery/tiens"
           layout={MainLayout}
           component={Tiens}
+          exact
+        />
+        <AppRoute
+          path="/gallery/cycling"
+          layout={MainLayout}
+          component={Cycling}
+          exact
+        />
+        <AppRoute
+          path="/gallery/tapin"
+          layout={MainLayout}
+          component={Tapin}
+          exact
+        />
+        <AppRoute
+          path="/gallery/umroh"
+          layout={MainLayout}
+          component={Umroh}
           exact
         />
       </Switch>
