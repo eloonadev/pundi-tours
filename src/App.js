@@ -22,6 +22,9 @@ import Samarinda from './sections/Gallery/Samarinda';
 import Batam from './sections/Gallery/Batam';
 import Meranti from './sections/Gallery/Meranti';
 import Tiens from './sections/Gallery/Tiens';
+import Indonesia from './sections/Tourism/Domestic/Indonesia';
+import Asean from './sections/Tourism/Domestic/Asean';
+import Foreign from './sections/Tourism/Domestic/Foreign';
 
 const AppRoute = ({ component: Component, layout: Layout, ...rest }) => (
   <Route
@@ -113,6 +116,24 @@ function App() {
           exact
         />
         <AppRoute
+          path="/tourism/tour-indonesia/domestic-market"
+          layout={MainLayout}
+          component={Indonesia}
+          exact
+        />
+        <AppRoute
+          path="/tourism/tour-indonesia/asean-market"
+          layout={MainLayout}
+          component={Asean}
+          exact
+        />
+        <AppRoute
+          path="/tourism/tour-indonesia/foreign-market"
+          layout={MainLayout}
+          component={Foreign}
+          exact
+        />
+        <AppRoute
           path="/tourism/tour-international"
           layout={MainLayout}
           component={International}
@@ -142,7 +163,7 @@ function App() {
           component={Samarinda}
           exact
         />
-         <AppRoute
+        <AppRoute
           path="/gallery/batam"
           layout={MainLayout}
           component={Batam}
@@ -154,7 +175,7 @@ function App() {
           component={Meranti}
           exact
         />
-         <AppRoute
+        <AppRoute
           path="/gallery/tiens"
           layout={MainLayout}
           component={Tiens}

@@ -6,79 +6,50 @@
     padding: 20px;
     text-align: center;
 
-    .content-wrapper {
-      padding-bottom: 10px;
+    .pundi-tour-places {
+      margin: 0 auto;
+      
+      .grid-servive {
+        display: grid;
+        list-style-type: none;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        padding: 20px;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
 
-      h2 {
-        font-size: 30px;
-        font-weight: 300;
-        line-height: 31px;
-        letter-spacing: 3px;
-        text-transform: uppercase;
-        -webkit-font-smoothing: antialiased;
-        padding: 0;
-        margin: 0;
-        padding-bottom: 10px;
-        color: #282828;
-      }
+        .card-wrapper {
+          border: 10px solid #fff;
+          box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+          cursor: pointer;
+          height: 250px;
+          width: 270px;
 
-      p {
-        font-size: 15px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 300;
-        line-height: 25px;
-        color: #4c4c4c;
-      }
-
-      .btn-wrapper {
-        padding: 20px 0;
-
-        .button {
-          color: #fff;
-          background-color: #4c4c4c;
-          border-radius: 0px;
-          text-decoration: none;
-          padding: 12px 18px;
-          font-size: 12px;
-          line-height: 19px;
-          text-transform: uppercase;
-          font-family: 'Raleway', sans-serif;
-          font-weight: 700;
-          letter-spacing: 3px;
-          border: 2px solid transparent;
-          transition: all .2s ease-in-out;
-          margin-right: 10px;
+          .title-wrapper {
+            align-items: center;
+            color: #000;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            padding-top: 5px;
+            text-decoration: none;
+            
+            p {
+              font-size: 20px;
+              font-weight: 500;
+              margin: 0;
+              padding-right: 20px;
+            }
+          }
         }
-
-        .button:hover {
-          background-color: #626262;
-        }
-      }    
-    }
-
-    .image-wrapper {
-      img {
-        width: 250px;
-        height: 175px;
       }
     }
   }
 }
 
-@media (min-width: 768px) {
-  .hero-legal--inner {
-    display: flex;
-    max-width: 1170px;
-    padding: 80px 0; 
-
-    .content-wrapper {
-      padding: 0 20px;
-      text-align: left;
-      width: 50%;
-    }
-
-    .image-wrapper {
-      width: 50%;
-    }
+@media (min-width: 1000px) {
+  .hero-special--inner {
+    width: 1000px;
   }
 }

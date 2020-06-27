@@ -1,11 +1,9 @@
-.hero-international {
+.hero-domestic {
   padding-top: 56px;
+  text-align: center;
 
   &--inner {
     margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-
 
     .pundi-tour-places {
       margin: 0 auto;
@@ -19,13 +17,12 @@
         justify-content: center;
         justify-items: center;
         align-items: center;
-        
 
         .card-wrapper {
           border: 10px solid #fff;
           box-shadow: 0 2px 3px rgba(0,0,0,0.2);
           cursor: pointer;
-          height: fit-content;
+          height: 250px;
           width: 270px;
 
           .title-wrapper {
@@ -50,8 +47,8 @@
   }
 }
 
-@media (min-width: 1000px) {
-  .hero-international--inner {
-    width: 630px;
+@media (min-width: 1200px) {
+  .hero-domestic--inner {
+    width: 1170px;
   }
 }
