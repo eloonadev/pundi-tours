@@ -1,0 +1,42 @@
+DOMESTIC(indonesianMarket) {
+BALI: https://drive.google.com/file/d/1TXUZO9jvpBWoGwZsghWMP61c94yDfTuG/view?usp=sharing
+BATAM: https://drive.google.com/file/d/1btIYs162dBdMLTh1BTwyCf9pVi-Nbww7/view?usp=sharing
+BELITUNG: https://drive.google.com/file/d/1btIYs162dBdMLTh1BTwyCf9pVi-Nbww7/view?usp=sharing
+BENGKULU: https://drive.google.com/file/d/1bzFCgO7GugZ5T0VImfgbPSymam3ZFp4j/view?usp=sharing
+LOMBOK: https://drive.google.com/file/d/1bzFCgO7GugZ5T0VImfgbPSymam3ZFp4j/view?usp=sharing
+MALANG: https://drive.google.com/file/d/10kE6FvTCJ6m0-gJhIiPbHTyyJHpBFbLu/view?usp=sharing
+MANADO: https://drive.google.com/file/d/1QF2vtXu_AxdhS8Qm9ku53N2vKX-_eTrn/view?usp=sharing
+MEDAN: https://drive.google.com/file/d/1vEPgI2pg_wXoAhyXN0Cc6ouxHvmVkxVr/view?usp=sharing
+PADANG: https://drive.google.com/file/d/1vEPgI2pg_wXoAhyXN0Cc6ouxHvmVkxVr/view?usp=sharing
+PALEMBANG: https://drive.google.com/file/d/1deuYE-Sgt3B6cxUfu7Q8tUUV9lfAr0Uu/view?usp=sharing
+}
+
+AseanMarket() {
+    acehMalaysianMarket: https://drive.google.com/file/d/1shCjV8Td6blRsvMsNg-aeF0bcAnP_pgB/view?usp=sharing
+    Bali: https://drive.google.com/file/d/1qksXSbH2trSQr3eGCYlRRaVacQpzzxdb/view?usp=sharing
+    batamBintanMalaysianMarket: https://drive.google.com/file/d/1Xlpq8T_gNX2F75far3I7eyxcTVpzJm5v/view?usp=sharing
+    Belitung: https://drive.google.com/file/d/19mLJZ_qOZbwAKs4lZyujXjzhN54X05eM/view?usp=sharing
+    BengkuluBencoolen: https://drive.google.com/file/d/1aOHqFXXtx2HNXGfjbjEZhJlxeoxxfUtI/view?usp=sharing
+    JogjaMalaysianMarket: https://drive.google.com/file/d/1aOHqFXXtx2HNXGfjbjEZhJlxeoxxfUtI/view?usp=sharing
+    Lombok: https://drive.google.com/file/d/1aOHqFXXtx2HNXGfjbjEZhJlxeoxxfUtI/view?usp=sharing
+    MalangRaya: https://drive.google.com/file/d/1FMCxdbvLkYk_B2Yj1eAQrzfYc1grIc5B/view?usp=sharing
+    Manado: https://drive.google.com/file/d/1xbn61W16bjpTFPXVWAjnB7pTadoGbe97/view?usp=sharing
+    MedanMalaysianMarket: https://drive.google.com/file/d/1xbn61W16bjpTFPXVWAjnB7pTadoGbe97/view?usp=sharing
+    Padang: https://drive.google.com/file/d/1GRwr3gNbimkPs3JSD-Gl1g_wEH06sa27/view?usp=sharing
+    Palembang: https://drive.google.com/file/d/1J0wN18-2K3Oqo1Y9Keun-w46C9hFt0Lu/view?usp=sharing
+}
+
+AllForeignMarket() {
+    Aceh: https://drive.google.com/file/d/1XSB7u9Rv3Skz0DpanB8PEOF0l3T0IsKE/view?usp=sharing
+    Bali: https://drive.google.com/file/d/1MPzrAV2iKfLWvQJS-nFDbv9WH0xCih79/view?usp=sharing
+    BatamBintan: https://drive.google.com/file/d/1Kz9jPVJH2dxmnzLVGZyMi_37WCv7wAC1/view?usp=sharing
+    Belitung: https://drive.google.com/file/d/1AmAJOBxmK7hPPAnhpoCETyWp47laXC0U/view?usp=sharing
+    Bengkulu: https://drive.google.com/file/d/1Gd6Jxnw_8mE4zPAiQKCm_9CD7sEh0rx4/view?usp=sharing
+    Jogja: https://drive.google.com/file/d/1Gd6Jxnw_8mE4zPAiQKCm_9CD7sEh0rx4/view?usp=sharing
+    Lombok: https://drive.google.com/file/d/1Gd6Jxnw_8mE4zPAiQKCm_9CD7sEh0rx4/view?usp=sharing
+    MalangRaya: https://drive.google.com/file/d/1snIXq8G7S4-ChYQZoNOKwI4RnM6MJpCP/view?usp=sharing
+    Manado: https://drive.google.com/file/d/1snIXq8G7S4-ChYQZoNOKwI4RnM6MJpCP/view?usp=sharing
+    Medan: https://drive.google.com/file/d/130tmMAQ1q4gnQ5ZkreQF3mjgFYEByRWn/view?usp=sharing
+    Padang: https://drive.google.com/file/d/130tmMAQ1q4gnQ5ZkreQF3mjgFYEByRWn/view?usp=sharing
+    Palembang: https://drive.google.com/file/d/13mEDcMvbYKYZ7iH2HiGCYkx0H52RU9Tt/view?usp=sharing
+}
