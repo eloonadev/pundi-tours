@@ -10,7 +10,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/BATAM.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/1btIYs162dBdMLTh1BTwyCf9pVi-Nbww7/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
                   <p>Batam</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
@@ -19,7 +19,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/BALI.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/1TXUZO9jvpBWoGwZsghWMP61c94yDfTuG/view?usp=sharing" className="title-wrapper" rel="noopener noreferrer" target="_blank">
                   <p>Bali</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
@@ -28,7 +28,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/BELITUNG.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/1btIYs162dBdMLTh1BTwyCf9pVi-Nbww7/view?usp=sharing" className="title-wrapper" rel="noopener noreferrer" target="_blank">
                   <p>Belitung</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
@@ -46,7 +46,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/LOMBOK.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/1bzFCgO7GugZ5T0VImfgbPSymam3ZFp4j/view?usp=sharing" className="title-wrapper" rel="noopener noreferrer" target="_blank">
                   <p>Lombok</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
@@ -55,7 +55,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/MALANG.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/10kE6FvTCJ6m0-gJhIiPbHTyyJHpBFbLu/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="title-wrapper">
                   <p>Malang</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
@@ -64,7 +64,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/MANADO.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/1QF2vtXu_AxdhS8Qm9ku53N2vKX-_eTrn/view?usp=sharing" taget="_blank" rel="noopener noreferrer" className="title-wrapper">
                   <p>Manado</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
@@ -73,7 +73,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/MEDAN.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/1vEPgI2pg_wXoAhyXN0Cc6ouxHvmVkxVr/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="title-wrapper">
                   <p>Medan</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
@@ -82,7 +82,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/PADANG.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/1vEPgI2pg_wXoAhyXN0Cc6ouxHvmVkxVr/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="title-wrapper">
                   <p>Padang</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
@@ -91,7 +91,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/PALEMBANG.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/1deuYE-Sgt3B6cxUfu7Q8tUUV9lfAr0Uu/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="title-wrapper">
                   <p>Palembang</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
