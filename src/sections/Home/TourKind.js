@@ -12,7 +12,7 @@ const TourKind = () => (
           </div>
           <div className="copy--content">
             <h3>Tour Indonesia</h3>
-            <p>Mulai dari Belitung hingga Bali, Lombok hingga Kalimantan, serta beragam destinasi wisata di Indonesia.</p>
+            <p>Mulai dari Aceh hingga Papua, serta beragam destinasi wisata lainnya di Indonesia seperti Bali, Lombok, Jogja, Jakarta, dan lainnya.</p>
           </div>
         </div>
       </div>
