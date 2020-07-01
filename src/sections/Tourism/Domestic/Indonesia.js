@@ -28,7 +28,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/BELITUNG.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="https://drive.google.com/file/d/1btIYs162dBdMLTh1BTwyCf9pVi-Nbww7/view?usp=sharing" className="title-wrapper" rel="noopener noreferrer" target="_blank">
+              <a href="https://drive.google.com/file/d/13ZOWz56iDaPrTq6QdKl5uMdbc25cnh4I/view?usp=sharing" className="title-wrapper" rel="noopener noreferrer" target="_blank">
                   <p>Belitung</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
@@ -37,7 +37,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/BENGKULU.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/1bzFCgO7GugZ5T0VImfgbPSymam3ZFp4j/view?usp=sharing" className="title-wrapper">
                   <p>Bengkulu</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
@@ -46,7 +46,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/LOMBOK.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="https://drive.google.com/file/d/1bzFCgO7GugZ5T0VImfgbPSymam3ZFp4j/view?usp=sharing" className="title-wrapper" rel="noopener noreferrer" target="_blank">
+              <a href="https://drive.google.com/file/d/1mwOnqZISaTyO32s03W5jKYPBLLjCaH7n/view?usp=sharing" className="title-wrapper" rel="noopener noreferrer" target="_blank">
                   <p>Lombok</p>
                   <i className="fas fa-chevron-right"></i>
               </a>
@@ -82,7 +82,7 @@ const Indonesia = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/PADANG.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="https://drive.google.com/file/d/1vEPgI2pg_wXoAhyXN0Cc6ouxHvmVkxVr/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/1nUJ6_6ET1wTR2cGHUQEgI2rGWw6EWCen/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="title-wrapper">
                   <p>Padang</p>
                   <i className="fas fa-chevron-right"></i>
               </a>

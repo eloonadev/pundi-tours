@@ -1,7 +1,7 @@
 DOMESTIC(indonesianMarket) {
 BALI: https://drive.google.com/file/d/1TXUZO9jvpBWoGwZsghWMP61c94yDfTuG/view?usp=sharing
 BATAM: https://drive.google.com/file/d/1btIYs162dBdMLTh1BTwyCf9pVi-Nbww7/view?usp=sharing
-BELITUNG: https://drive.google.com/file/d/1btIYs162dBdMLTh1BTwyCf9pVi-Nbww7/view?usp=sharing
+BELITUNG: https://drive.google.com/file/d/13ZOWz56iDaPrTq6QdKl5uMdbc25cnh4I/view?usp=sharing
 BENGKULU: https://drive.google.com/file/d/1bzFCgO7GugZ5T0VImfgbPSymam3ZFp4j/view?usp=sharing
 LOMBOK: https://drive.google.com/file/d/1bzFCgO7GugZ5T0VImfgbPSymam3ZFp4j/view?usp=sharing
 MALANG: https://drive.google.com/file/d/10kE6FvTCJ6m0-gJhIiPbHTyyJHpBFbLu/view?usp=sharing
