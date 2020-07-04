@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Fab from './components/Fab';
 
 import Home from './pages/Home';
 import AboutUs from './pages/AboustUs';
@@ -44,6 +45,7 @@ const MainLayout = props => (
   <div>
     <Header />
     {props.children}
+    <Fab />
     <Footer />
   </div>
 )
