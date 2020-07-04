@@ -89,7 +89,6 @@
   
   i {
     color: #25D366;
-    // font-size: 20px;
   }
 
   span {
@@ -98,6 +97,11 @@
 }
 
 .list:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.list:visited {
   color: #000;
   text-decoration: none;
 }

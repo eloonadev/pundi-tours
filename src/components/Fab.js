@@ -16,9 +16,7 @@ class Fab extends React.Component {
   }
 
   render() {
-    let ulClass = 'content close';
-    console.log(this.state.isExpand);
-     
+    let ulClass = 'content close';     
     let icon = 'fab fa-whatsapp'
 
     if (this.state.isExpand) {
