@@ -19,7 +19,7 @@ const Special = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../assets/special_interest_tour/HONEYMOON.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/144IEVjcV9Yu7TYkUUXCR4ja6ujc4PQjn/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="title-wrapper">
                 <p>Honeymoon</p>
                 <i className="fas fa-chevron-right"></i>
               </a>
@@ -28,7 +28,7 @@ const Special = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../assets/special_interest_tour/LAINNYA.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="/" className="title-wrapper">
+              <a href="https://drive.google.com/file/d/12BKiLqJwMsEyrJtZMzy4Ljq_akMxiRIl/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="title-wrapper">
                 <p>Lainnya</p>
                 <i className="fas fa-chevron-right"></i>
               </a>

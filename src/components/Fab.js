@@ -57,7 +57,7 @@ class Fab extends React.Component {
             <a className="list-mobile" href="https://wa.me/6287874471460" target="_blank" rel="noopener noreferrer">
               <div className="logo-wrapper">
                 <i className="fab fa-whatsapp"></i>
-                <span>Mr Sampun</span>
+                <span>Mr Akbar</span>
               </div>
               <i className="fas fa-chevron-right"></i>
             </a>
