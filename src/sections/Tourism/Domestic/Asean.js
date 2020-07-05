@@ -9,7 +9,7 @@ const Asean = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/BATAM.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="https://drive.google.com/file/d/1nUJ6_6ET1wTR2cGHUQEgI2rGWw6EWCen/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1Xlpq8T_gNX2F75far3I7eyxcTVpzJm5v/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
                 <p>Batam - Bintan</p>
                 <i className="fas fa-chevron-right"></i>
               </a>
@@ -18,7 +18,7 @@ const Asean = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/ACEH.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="https://drive.google.com/file/d/1nUJ6_6ET1wTR2cGHUQEgI2rGWw6EWCen/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1shCjV8Td6blRsvMsNg-aeF0bcAnP_pgB/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
                 <p>Aceh</p>
                 <i className="fas fa-chevron-right"></i>
               </a>
@@ -54,7 +54,7 @@ const Asean = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/JOGJA.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="https://drive.google.com/file/d/1aOHqFXXtx2HNXGfjbjEZhJlxeoxxfUtI/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1FLjDXh5ok7z7fWwPcKxDOwXnowI6_ZiQ/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
                 <p>Jogja</p>
                 <i className="fas fa-chevron-right"></i>
               </a>
@@ -72,7 +72,7 @@ const Asean = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/MALANG.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="https://drive.google.com/file/d/1yVfrUisXocx-dnTHqexgqXChm2_y_HmO/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1FMCxdbvLkYk_B2Yj1eAQrzfYc1grIc5B/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
                 <p>Malang</p>
                 <i className="fas fa-chevron-right"></i>
               </a>
@@ -81,7 +81,7 @@ const Asean = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/MANADO.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="https://drive.google.com/file/d/1yVfrUisXocx-dnTHqexgqXChm2_y_HmO/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1FMCxdbvLkYk_B2Yj1eAQrzfYc1grIc5B/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
                 <p>Manado</p>
                 <i className="fas fa-chevron-right"></i>
               </a>
@@ -99,7 +99,7 @@ const Asean = () => (
           <li className="grid-service--list">
             <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/PADANG.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
-              <a href="https://drive.google.com/file/d/18E6diO9f-6pkT0scJADV4MixjQBctMlc/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1GRwr3gNbimkPs3JSD-Gl1g_wEH06sa27/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
                 <p>Padang</p>
                 <i className="fas fa-chevron-right"></i>
               </a>
