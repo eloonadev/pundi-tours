@@ -18,6 +18,15 @@ const Indonesia = () => (
           </li>
           <li className="grid-service--list">
             <div className="card-wrapper">
+              <img src={require("../../../assets/tour_indonesia/ACEH.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
+              <a href="https://drive.google.com/file/d/1sgv4w3filOtICsdhiOjJHPtH73wKQ8ao/view?usp=sharing" className="title-wrapper" target="_blank" rel="noopener noreferrer">
+                <p>Aceh</p>
+                <i className="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </li>
+          <li className="grid-service--list">
+            <div className="card-wrapper">
               <img src={require("../../../assets/tour_indonesia/BALI.jpg")} style={{ width: "240px", height: "200px" }} alt="Al Kaffah" />
               <a href="https://drive.google.com/file/d/1TXUZO9jvpBWoGwZsghWMP61c94yDfTuG/view?usp=sharing" className="title-wrapper" rel="noopener noreferrer" target="_blank">
                   <p>Bali</p>
