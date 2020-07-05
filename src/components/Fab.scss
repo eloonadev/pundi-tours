@@ -71,9 +71,21 @@
 // .contact-list {
 // }
 
-.list {
+.list-mobile {
   color: #000;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 5px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border-left: 2px solid #595B60;
+}
+
+.list-web {
+  color: #000;
+  display: none;
   flex-direction: row;
   justify-content: space-between;
   background-color: #f2f2f2;
@@ -96,12 +108,23 @@
   }
 }
 
-.list:hover {
+.list-web:hover,
+.list-mobile:hover {
   color: #000;
   text-decoration: none;
 }
 
-.list:visited {
+.list-web:visited,
+.list-mobile:visited {
   color: #000;
   text-decoration: none;
+}
+
+@media all and (min-width: 1024px) {
+.list-web {
+  display: flex;
+}
+.list-mobile {
+  display: none;
+}
 }
