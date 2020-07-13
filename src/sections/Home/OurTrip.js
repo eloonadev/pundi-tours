@@ -3,11 +3,14 @@ import { Link } from 'react-router-dom';
 import '../../scss/OurTrip.scss';
 
 class OurTrip extends React.Component {
-  state = {
-    isClick: false
+  constructor() {
+    super()
+    this.state = {
+      isClick: false
+    }
   }
 
-  show = () => {
+  show() {
     this.setState((prevState) => {
       return { isClick: !prevState.isClick }
     });
