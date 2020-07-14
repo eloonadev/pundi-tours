@@ -17,12 +17,12 @@ class Special extends React.Component {
         },
         {
           "name": "Honeymoon",
-          "destination_url": "https://drive.google.com/file/d/144IEVjcV9Yu7TYkUUXCR4ja6ujc4PQjn/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1YGZ3kT1IHUDJC_IpaPgLZ90_iKe8JRnW/view?usp=sharing",
           "photo": Honeymoon
         },
         {
           "name": "Lainnya",
-          "destination_url": "https://drive.google.com/file/d/12BKiLqJwMsEyrJtZMzy4Ljq_akMxiRIl/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/18OugyTkMQWI9_8zHerU69NAPAtDBo0rZ/view?usp=sharing",
           "photo": Lainnya
         },
       ]
