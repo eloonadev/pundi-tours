@@ -67,7 +67,7 @@ class Asean extends React.Component {
           "photo": Lombok
         },
         {
-          "name": "Malang",
+          "name": "Malang Raya",
           "destination_url": "https://drive.google.com/file/d/1gTM0E837fQY1zkeEemLTRTujgT6D6MO8/view?usp=sharing",
           "photo": Malang
         },
