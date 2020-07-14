@@ -23,72 +23,72 @@ class Asean extends React.Component {
       data: [
         {
           "name": "Batam - Bintan",
-          "destination_url": "https://drive.google.com/file/d/1btIYs162dBdMLTh1BTwyCf9pVi-Nbww7/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1pZP0BomU_R9Puu07LB7t4pT6Wtuel-bx/view?usp=sharing",
           "photo": Batam
         },
         {
-          "name": "Aceh",
-          "destination_url": "https://drive.google.com/file/d/1sgv4w3filOtICsdhiOjJHPtH73wKQ8ao/view?usp=sharing",
+          "name": "Aceh (Malaysian Market)",
+          "destination_url": "https://drive.google.com/file/d/1_V9CMR3GUwZFgofe9_C9iA_-NsxSNl7t/view?usp=sharing",
           "photo": Aceh
         },
         {
           "name": "Bali",
-          "destination_url": "https://drive.google.com/file/d/1TXUZO9jvpBWoGwZsghWMP61c94yDfTuG/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1SxqoKife6zDsSerzvSP3iOqgqKsMEyKX/view?usp=sharing",
           "photo": Bali
         },
         {
           "name": "Belitung",
-          "destination_url": "https://drive.google.com/file/d/13ZOWz56iDaPrTq6QdKl5uMdbc25cnh4I/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1LHU21alycOjxogsnsibWb3KyqvpGJvbJ/view?usp=sharing",
           "photo": Belitung
         },
         {
           "name": "Bengkulu",
-          "destination_url": "https://drive.google.com/file/d/1bzFCgO7GugZ5T0VImfgbPSymam3ZFp4j/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1HQc34PyYJ3WZXfdbEJWuGPhV05t2v0k4/view?usp=sharing",
           "photo": Bengkulu
         },
         {
           "name": "Jogja",
-          "destination_url": "https://drive.google.com/file/d/1bzFCgO7GugZ5T0VImfgbPSymam3ZFp4j/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/18VqgPUKx1Pn6MNWTAE2nzlFdE85owxoV/view?usp=sharing",
           "photo": Jogja
         },
         {
           "name": "Labuan Bajo",
-          "destination_url": "https://drive.google.com/file/d/1mwOnqZISaTyO32s03W5jKYPBLLjCaH7n/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1UnLknPJzFvLhES2_5zVdC8-vsAc5gp4Z/view?usp=sharing",
           "photo": Labuan
         },
         {
           "name": "Lampung",
-          "destination_url": "https://drive.google.com/file/d/1mwOnqZISaTyO32s03W5jKYPBLLjCaH7n/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1KRE2zwwM1RvPj6m2qb5jRfdkXPlScgl-/view?usp=sharing",
           "photo": Lampung
         },
         {
           "name": "Lombok",
-          "destination_url": "https://drive.google.com/file/d/1mwOnqZISaTyO32s03W5jKYPBLLjCaH7n/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1WHcHBFr2726WJk1chCbVKV6Z35Ouh4pb/view?usp=sharing",
           "photo": Lombok
         },
         {
           "name": "Malang",
-          "destination_url": "https://drive.google.com/file/d/10kE6FvTCJ6m0-gJhIiPbHTyyJHpBFbLu/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1gTM0E837fQY1zkeEemLTRTujgT6D6MO8/view?usp=sharing",
           "photo": Malang
         },
         {
           "name": "Manado",
-          "destination_url": "https://drive.google.com/file/d/1QF2vtXu_AxdhS8Qm9ku53N2vKX-_eTrn/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1zRqMLDbEZtrxicJl87o9RX9HRishente/view?usp=sharing",
           "photo": Manado
         },
         {
           "name": "Medan",
-          "destination_url": "https://drive.google.com/file/d/1LmPDoZf0tVCQbOHbD2fPyRVAF0Jh0fSQ/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/12XraPYijpUR29QcFvH6m1R1d9zPAiVJ8/view?usp=sharing",
           "photo": Medan
         },
         {
           "name": "Padang",
-          "destination_url": "https://drive.google.com/file/d/1nUJ6_6ET1wTR2cGHUQEgI2rGWw6EWCen/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1PgrYCIYtoXq2FE3j5eYVytDL8QJO3dQQ/view?usp=sharing",
           "photo": Padang
         },
         {
           "name": "Palembang",
-          "destination_url": "https://drive.google.com/file/d/1deuYE-Sgt3B6cxUfu7Q8tUUV9lfAr0Uu/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1ilg-c77YCCqvE1wv6WhBfa36TEK4x40V/view?usp=sharing",
           "photo": Palembang
         },
       ]
