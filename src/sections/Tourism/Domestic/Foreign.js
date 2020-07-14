@@ -23,72 +23,72 @@ class Foreign extends React.Component {
       data: [
         {
           "name": "Batam - Bintan",
-          "destination_url": "https://drive.google.com/file/d/1btIYs162dBdMLTh1BTwyCf9pVi-Nbww7/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1Afc7SwJ0rwTb72calezQUrUkCBPivjOe/view?usp=sharing",
           "photo": Batam
         },
         {
           "name": "Aceh",
-          "destination_url": "https://drive.google.com/file/d/1sgv4w3filOtICsdhiOjJHPtH73wKQ8ao/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1TIVhR3LZc9xcrqoNlI5DZBm5sUbymZ2F/view?usp=sharing",
           "photo": Aceh
         },
         {
           "name": "Bali",
-          "destination_url": "https://drive.google.com/file/d/1TXUZO9jvpBWoGwZsghWMP61c94yDfTuG/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1sl_NQLQVbcPy5qLP6jwK2Xyaf9Ff_Tp8/view?usp=sharing",
           "photo": Bali
         },
         {
           "name": "Belitung",
-          "destination_url": "https://drive.google.com/file/d/13ZOWz56iDaPrTq6QdKl5uMdbc25cnh4I/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1Mn2SZiDEVqD_2IAfMlMT_bTyqyWUnGYV/view?usp=sharing",
           "photo": Belitung
         },
         {
           "name": "Bengkulu",
-          "destination_url": "https://drive.google.com/file/d/1bzFCgO7GugZ5T0VImfgbPSymam3ZFp4j/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1WCIxZUKvTTYgn2IZkC49Ffjg7nTvnn7O/view?usp=sharing",
           "photo": Bengkulu
         },
         {
           "name": "Jogja",
-          "destination_url": "https://drive.google.com/file/d/1bzFCgO7GugZ5T0VImfgbPSymam3ZFp4j/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1F5Pe6AZ0UEq7R0JdBwY_VwFAuSBkZOgT/view?usp=sharing",
           "photo": Jogja
         },
         {
           "name": "Labuan Bajo",
-          "destination_url": "https://drive.google.com/file/d/1mwOnqZISaTyO32s03W5jKYPBLLjCaH7n/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1aG3qHLQzozWLVWKbwv0tTwBrBtMsrVTD/view?usp=sharing",
           "photo": Labuan
         },
         {
           "name": "Lampung",
-          "destination_url": "https://drive.google.com/file/d/1mwOnqZISaTyO32s03W5jKYPBLLjCaH7n/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1oX_Uou367cOfzutPdkcV3PvfGEJH0l4g/view?usp=sharing",
           "photo": Lampung
         },
         {
           "name": "Lombok",
-          "destination_url": "https://drive.google.com/file/d/1mwOnqZISaTyO32s03W5jKYPBLLjCaH7n/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1Vwb5XzaQFx8u9aTJEW-Y8xsQ1NRI3Qih/view?usp=sharing",
           "photo": Lombok
         },
         {
-          "name": "Malang",
-          "destination_url": "https://drive.google.com/file/d/10kE6FvTCJ6m0-gJhIiPbHTyyJHpBFbLu/view?usp=sharing",
+          "name": "Malang Raya",
+          "destination_url": "https://drive.google.com/file/d/1SLCMxRfqdZIRErl3cMNnEGozCtSQpib0/view?usp=sharing",
           "photo": Malang
         },
         {
           "name": "Manado",
-          "destination_url": "https://drive.google.com/file/d/1QF2vtXu_AxdhS8Qm9ku53N2vKX-_eTrn/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1mSF-RmFXyftRnaDMcGG1B6qNRQ5C5Jau/view?usp=sharing",
           "photo": Manado
         },
         {
           "name": "Medan",
-          "destination_url": "https://drive.google.com/file/d/1LmPDoZf0tVCQbOHbD2fPyRVAF0Jh0fSQ/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1pH0Hn13uvoJiSmgwrl30RE8dMhLbCII1/view?usp=sharing",
           "photo": Medan
         },
         {
           "name": "Padang",
-          "destination_url": "https://drive.google.com/file/d/1nUJ6_6ET1wTR2cGHUQEgI2rGWw6EWCen/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1q5COLTlrwcdraBaYumqtxVtilnFdl4ad/view?usp=sharing",
           "photo": Padang
         },
         {
           "name": "Palembang",
-          "destination_url": "https://drive.google.com/file/d/1deuYE-Sgt3B6cxUfu7Q8tUUV9lfAr0Uu/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/17XV3FwD0lIDZMaVCHnridh2daZ9-R3Zl/view?usp=sharing",
           "photo": Palembang
         },
       ]
@@ -107,7 +107,7 @@ class Foreign extends React.Component {
             </a>
           </div>
         </li>
-      )
+      );
     })
     return (
       <section className="hero-domestic">
