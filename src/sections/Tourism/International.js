@@ -11,12 +11,12 @@ class International extends React.Component {
       data: [
         {
           "name": "Tour 3 Negara (In-Out Batam)",
-          "destination_url": "https://drive.google.com/file/d/1Pv0GmSPxICSwRYIoruJ7cBFIcDjBWdQZ/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1gfkMIg2h1YILvc6zoF52hSwkDfciezmV/view?usp=sharing",
           "photo": TigaNegara
         },
         {
           "name": "Tour Malaysia & Singapore",
-          "destination_url": "https://drive.google.com/file/d/1qxmo1WkRHZPDZ4pb5CVDJOeRqPw8b8XE/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/19rFjuNuarq6YHYN-9iQPS8A4-SKRkzHb/view?usp=sharing",
           "photo": MalaySpore
         },
       ]

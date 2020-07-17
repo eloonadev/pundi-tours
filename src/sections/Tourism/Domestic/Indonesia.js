@@ -15,6 +15,7 @@ import Manado from "../../../assets/tour_indonesia/MANADO.jpg";
 import Medan from "../../../assets/tour_indonesia/MEDAN.jpg";
 import Padang from "../../../assets/tour_indonesia/PADANG.jpg";
 import Palembang from "../../../assets/tour_indonesia/PALEMBANG.jpg";
+import Semarang from "../../../assets/tour_indonesia/SEMARANG.jpg";
 
 class Indonesia extends React.Component {
   constructor() {
@@ -23,7 +24,7 @@ class Indonesia extends React.Component {
       data: [
         {
           "name": "Batam - Bintan",
-          "destination_url": "https://drive.google.com/file/d/12BpXHXxHBrEwWKRxDUqNnHWsohT4kLRo/view?usp=sharing",
+          "destination_url": "https://drive.google.com/file/d/1wDOc29WgceFxAlMbI2qmwVvzBF_t1I-W/view?usp=sharing",
           "photo": Batam
         },
         {
@@ -90,6 +91,11 @@ class Indonesia extends React.Component {
           "name": "Palembang",
           "destination_url": "https://drive.google.com/file/d/12YNgFgZyZGvkKOc1HXQQ2IYcuqh9SOjH/view?usp=sharing",
           "photo": Palembang
+        },
+        {
+          "name": "Semarang",
+          "destination_url": "https://drive.google.com/file/d/1kdwCMdaNv0H5-bB0FvV_iCsxdmFr594O/view?usp=sharing",
+          "photo": Semarang
         },
       ]
     }
