@@ -19,7 +19,7 @@ const HeaderComponent = props => (
             <ul className="dropdown-menu">
               <li><Link to="/tourism/tour-indonesia" className="dropdown-content">Tour Indonesia</Link></li>
               <li><Link to="/tourism/tour-international" className="dropdown-content">Tour Luar Negeri</Link></li>
-              <li><Link to="/tourism/special-tour" className="dropdown-content">Special Interest Tour</Link></li>
+              <li><Link to="/tourism/special-tour" className="dropdown-content">Vitamin Sea</Link></li>
             </ul>
           </li>
           <li className="dropdown"><Link to="/" className="dropdown-toggle" data-toggle="dropdown">LAYANAN LAIN<span><i style={{ marginLeft: "4px"}} className="fas fa-chevron-down"></i></span></Link>

@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../scss/Special.scss';
 
-import Golf from '../../assets/special_interest_tour/GOLF.jpg';
-import Honeymoon from '../../assets/special_interest_tour/HONEYMOON.jpg';
-import Lainnya from '../../assets/special_interest_tour/LAINNYA.jpg';
+import RanohIsland from '../../assets/special_interest_tour/RANOH ISLAND.jpeg';
+import KepriCoral from '../../assets/special_interest_tour/KEPRI CORAL ISLAND.jpg';
+import LabunIsland from '../../assets/special_interest_tour/LABUN ISLAND.jpg';
 
 class Special extends React.Component {
   constructor() {
@@ -11,19 +11,19 @@ class Special extends React.Component {
     this.state = {
       data: [
         {
-          "name": "Golf",
-          "destination_url": "/",
-          "photo": Golf
+          "name": "Ranoh Island",
+          "destination_url": "https://drive.google.com/file/d/1MpvUCO3Y3iP3Mh4Xl6y5G0SDSyGl3Dy0/view?usp=sharing",
+          "photo": RanohIsland
         },
         {
-          "name": "Honeymoon",
-          "destination_url": "https://drive.google.com/file/d/1YGZ3kT1IHUDJC_IpaPgLZ90_iKe8JRnW/view?usp=sharing",
-          "photo": Honeymoon
+          "name": "Kepri Coral Island",
+          "destination_url": "https://drive.google.com/file/d/1Dw1mZ32i59pU7ApLFPchEeUIizgYamr4/view?usp=sharing",
+          "photo": KepriCoral
         },
         {
-          "name": "Lainnya",
-          "destination_url": "https://drive.google.com/file/d/18OugyTkMQWI9_8zHerU69NAPAtDBo0rZ/view?usp=sharing",
-          "photo": Lainnya
+          "name": "Labun Island",
+          "destination_url": "https://drive.google.com/file/d/1QUYnGj8dKYQSEhLvGHxoCTQ7pt52wgtr/view?usp=sharing",
+          "photo": LabunIsland
         },
       ]
     }

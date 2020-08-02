@@ -5,7 +5,7 @@ const TourKind = () => (
   <section className="tour-kind">
     <div className="tour-kind--iner">
       <div className="card-wrapper">
-        <img className="image" src="https://images.pexels.com/photos/2450218/pexels-photo-2450218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="FerryBoat" />
+        <img className="image" src="https://images.pexels.com/photos/2450218/pexels-photo-2450218.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="FerryBoat" />
         <div className="copy">
           <div className="copy--icon">
             <i className="fa fa-bus fa-2x"></i>
@@ -29,14 +29,14 @@ const TourKind = () => (
         </div>
       </div>
       <div className="card-wrapper">
-        <img className="image" src="https://images.pexels.com/photos/654/clouds-cloudy-agriculture-farm.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="FerryBoat" />
+        <img className="image__vitamin-sea" src={require("../../assets/VITAMIN SEA.jpg")} alt="Vitamin Sea" />
         <div className="copy">
           <div className="copy--icon">
-            <i className="fa fa-ship fa-2x"></i>
+            <i className="fas fa-water fa-2x"></i>
           </div>
           <div className="copy--content">
-            <h3>Special Interest Tour</h3>
-            <p>Rasakan pengalaman baru mengunjungi destinasi populer secara istimewa</p>
+            <h3>Vitamin Sea</h3>
+            <p>Nikmati keindahan pantai dan panorama laut Indonesia yang begitu istimewa</p>
           </div>
         </div>
       </div>

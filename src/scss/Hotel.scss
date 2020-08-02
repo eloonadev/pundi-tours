@@ -9,6 +9,12 @@
     .content-wrapper {
       padding-bottom: 10px;
 
+      .desc-wrapper {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+
       h2 {
         font-size: 30px;
         font-weight: 300;

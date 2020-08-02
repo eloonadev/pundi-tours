@@ -2,6 +2,7 @@ import React from 'react';
 import '../../../scss/Indonesia.scss';
 
 import Aceh from "../../../assets/tour_indonesia/ACEH.jpg";
+import Ambon from "../../../assets/tour_indonesia/AMBON.jpg";
 import Batam from "../../../assets/tour_indonesia/BATAM.jpg";
 import Bali from "../../../assets/tour_indonesia/BALI.jpg";
 import Belitung from "../../../assets/tour_indonesia/BELITUNG.jpg";
@@ -10,11 +11,13 @@ import Jogja from "../../../assets/tour_indonesia/JOGJA.jpg";
 import Labuan from "../../../assets/tour_indonesia/LABUAN-BAJO.jpg";
 import Lampung from "../../../assets/tour_indonesia/LAMPUNG.jpg";
 import Lombok from "../../../assets/tour_indonesia/LOMBOK.jpg";
+import Makassar from "../../../assets/tour_indonesia/MAKASSAR.jpg";
 import Malang from "../../../assets/tour_indonesia/MALANG.jpg";
 import Manado from "../../../assets/tour_indonesia/MANADO.jpg";
 import Medan from "../../../assets/tour_indonesia/MEDAN.jpg";
 import Padang from "../../../assets/tour_indonesia/PADANG.jpg";
 import Palembang from "../../../assets/tour_indonesia/PALEMBANG.jpg";
+import RajaAmpat from "../../../assets/tour_indonesia/RAJA AMPAT.jpg";
 import Semarang from "../../../assets/tour_indonesia/SEMARANG.jpg";
 
 class Foreign extends React.Component {
@@ -31,6 +34,11 @@ class Foreign extends React.Component {
           "name": "Aceh",
           "destination_url": "https://drive.google.com/file/d/1TIVhR3LZc9xcrqoNlI5DZBm5sUbymZ2F/view?usp=sharing",
           "photo": Aceh
+        },
+        {
+          "name": "Ambon",
+          "destination_url": "https://drive.google.com/file/d/1DSz_ANhV0Rjy0GxTEaWeNi1n4DOAUvcd/view?usp=sharing",
+          "photo": Ambon
         },
         {
           "name": "Bali",
@@ -68,6 +76,11 @@ class Foreign extends React.Component {
           "photo": Lombok
         },
         {
+          "name": "Makassar",
+          "destination_url": "https://drive.google.com/file/d/1jgbfuDfWPc_CRDLpVLXFQ5Ea4RkSW2JV/view?usp=sharing",
+          "photo": Makassar
+        },
+        {
           "name": "Malang Raya",
           "destination_url": "https://drive.google.com/file/d/1SLCMxRfqdZIRErl3cMNnEGozCtSQpib0/view?usp=sharing",
           "photo": Malang
@@ -91,6 +104,11 @@ class Foreign extends React.Component {
           "name": "Palembang",
           "destination_url": "https://drive.google.com/file/d/17XV3FwD0lIDZMaVCHnridh2daZ9-R3Zl/view?usp=sharing",
           "photo": Palembang
+        },
+        {
+          "name": "Raja Ampat",
+          "destination_url": "https://drive.google.com/file/d/1PK3HRtYCLxsd918eNuXByHmLGS398SC-/view?usp=sharing",
+          "photo": RajaAmpat
         },
         {
           "name": "Semarang",
