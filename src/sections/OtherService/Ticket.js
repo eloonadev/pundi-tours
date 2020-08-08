@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../scss/Ticket.scss';
 
-const Ticket = () => (
+const Ticket = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+  return (
   <section className="hero-ticket" id="#ticket">
     <div className="hero-ticket--inner">
       <div className="content-wrapper">
@@ -14,6 +18,6 @@ const Ticket = () => (
       </div>
     </div>
   </section>
-)
+)}
 
 export default Ticket;

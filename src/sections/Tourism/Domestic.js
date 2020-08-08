@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../../scss/Domestic.scss';
 
-const Domestic = () => (
+const Domestic = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+  return (
   <section className="hero-tourind">
     <div className="hero-tourind--inner">
       <Link className="wrapper" to="/tourism/tour-indonesia/domestic-market">
@@ -16,6 +20,6 @@ const Domestic = () => (
       </Link>
     </div>
   </section>
-)
+)}
 
 export default Domestic;

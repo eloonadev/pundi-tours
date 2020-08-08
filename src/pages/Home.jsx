@@ -11,6 +11,10 @@ import OurService from '../sections/Home/OurService';
 
 class Home extends React.Component {
 
+  componentDidMount() {
+    window.scrollTo(0, 0)
+  }
+
   render() {
     return (
       <div>

@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../scss/Payment.scss';
 
-const Payment = () => (
+const Payment = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+  return (
   <section className="hero-payment">
     <div className="hero-payment--inner">
       <div className="content-wrapper">
@@ -26,6 +30,6 @@ const Payment = () => (
       </div>
     </div>
   </section>
-)
+)}
 
 export default Payment;

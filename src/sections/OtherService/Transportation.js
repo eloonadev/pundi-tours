@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../scss/Transportation.scss';
 
-const Transportation = () => (
+const Transportation = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+  return (
   <section className="hero-transport" id="#transportation">
     <div className="hero-transport--inner">
       <div className="content-wrapper">
@@ -26,6 +30,6 @@ const Transportation = () => (
       </div>
     </div>
   </section>
-)
+)}
 
 export default Transportation;

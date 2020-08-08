@@ -119,6 +119,10 @@ class Indonesia extends React.Component {
     }
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     const Maps = this.state.data.map(item => {
       return (

@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../scss/Hotel.scss';
 
-const Hotel = () => (
+const Hotel = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
+return (
   <section className="hero-hotel" id="#hotel">
     <div className="hero-hotel--inner">
       <div className="content-wrapper">
@@ -17,6 +22,6 @@ const Hotel = () => (
       </div>
     </div>
   </section>
-)
+)}
 
 export default Hotel;

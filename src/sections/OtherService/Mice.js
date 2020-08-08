@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../../scss/Mice.scss';
 
-const Mice = () => (
+const Mice = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, []);
+
+return (
   <section className="hero-mice" id="#mice">
     <div className="hero-mice--inner">
       <div className="content-wrapper">
@@ -14,6 +19,6 @@ const Mice = () => (
       </div>
     </div>
   </section>
-)
+)}
 
 export default Mice;
