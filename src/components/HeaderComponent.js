@@ -13,27 +13,27 @@ const HeaderComponent = props => (
       <div className="spacer" />
       <div className="navigation--items">
         <ul>
-          <li><Link to="/">BERANDA</Link></li>
-          <li><Link to="/aboutus">TENTANG KAMI</Link></li>
-          <li className="dropdown"><Link to="/" className="dropdown-toggle" data-toggle="dropdown">WISATA<span><i style={{ marginLeft: "4px"}} className="fas fa-chevron-down"></i></span></Link>
+          <li><Link className="header-component__navigation-link" to="/">BERANDA</Link></li>
+          <li><Link className="header-component__navigation-link" to="/aboutus">TENTANG KAMI</Link></li>
+          <li className="dropdown"><Link className="header-component__navigation-link dropdown-toggle" to="/" data-toggle="dropdown">WISATA<span><i className="fas fa-chevron-down"></i></span></Link>
             <ul className="dropdown-menu">
-              <li><Link to="/tourism/tour-indonesia" className="dropdown-content">Tour Indonesia</Link></li>
-              <li><Link to="/tourism/tour-international" className="dropdown-content">Tour Luar Negeri</Link></li>
-              <li><Link to="/tourism/special-tour" className="dropdown-content">Vitamin Sea</Link></li>
+              <li><Link className="header-component__navigation-link dropdown-content" to="/tourism/tour-indonesia">Tour Indonesia</Link></li>
+              <li><Link className="header-component__navigation-link dropdown-content" to="/tourism/tour-international">Tour Luar Negeri</Link></li>
+              <li><Link className="header-component__navigation-link dropdown-content" to="/tourism/special-tour">Vitamin Sea</Link></li>
             </ul>
           </li>
-          <li className="dropdown"><Link to="/" className="dropdown-toggle" data-toggle="dropdown">LAYANAN LAIN<span><i style={{ marginLeft: "4px"}} className="fas fa-chevron-down"></i></span></Link>
+          <li className="dropdown"><Link className="header-component__navigation-link dropdown-toggle" to="/" data-toggle="dropdown">LAYANAN LAIN<span><i className="fas fa-chevron-down"></i></span></Link>
             <ul className="dropdown-menu">
-              <li><Link to="/other/mice">MICE</Link></li>
-              <li><Link to="/other/ticket">Tiket</Link></li>
-              <li><Link to="/other/hotel">Hotel</Link></li>
-              <li><Link to="/other/transportation">Transportasi</Link></li>
-              <li><Link to="/other/payment">Multi Payment Service</Link></li>
+              <li><Link className="header-component__navigation-link dropdown-content" to="/other/mice">MICE</Link></li>
+              <li><Link className="header-component__navigation-link dropdown-content" to="/other/ticket">Tiket</Link></li>
+              <li><Link className="header-component__navigation-link dropdown-content" to="/other/hotel">Hotel</Link></li>
+              <li><Link className="header-component__navigation-link dropdown-content" to="/other/transportation">Transportasi</Link></li>
+              <li><Link className="header-component__navigation-link dropdown-content" to="/other/payment">Multi Payment Service</Link></li>
             </ul>
           </li>
-          <li><Link to="/whyus">MENGAPA KAMI</Link></li>
-          <li><Link to="/gallery">GALLERY</Link></li>
-          <li><a style={{ background: "#4c4c4c", color: "#fff", padding: "10px", borderRadius: "2px" }} href="#footer">KONTAK</a></li>
+          <li><Link className="header-component__navigation-link" to="/whyus">MENGAPA KAMI</Link></li>
+          <li><Link className="header-component__navigation-link" to="/gallery">GALLERY</Link></li>
+          <li><a className="header-component__button-contact" href="#footer">KONTAK</a></li>
         </ul>
       </div>
     </nav>
