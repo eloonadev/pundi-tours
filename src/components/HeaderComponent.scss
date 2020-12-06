@@ -67,7 +67,7 @@
   padding: 10px;
 
   &:hover,
-  &:active,
+  &:focus,
   &:visited {
     color: #fff;
     background-color: darken($color: #4c4c4c, $amount: 5);
@@ -81,9 +81,10 @@
   }
 
   a:hover,
-  a:active,
+  a:focus,
   a:visited {
     color: #337ab7;
+    text-decoration: none;
   }
 }
 
