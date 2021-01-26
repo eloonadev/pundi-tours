@@ -103,6 +103,46 @@ class OurTrip extends React.Component {
                   </Link>
                 </div>
               </li>
+              <li className="grid-photo--list">
+                <div className={imgClass}>
+                  <Link to="/gallery/yosudarso-trip">
+                    <img src={require("../../assets/YOS_SUDARSO_HIGH_SCHOOL_FAMILY_TRIP/IMG_3117.JPG")} style={{ width: "240px", height: "200px" }} alt="Cycling Tour" />
+                    <p>YOS SUDARSO HIGH SCHOOL FAMILY TRIP</p>
+                  </Link>
+                </div>
+              </li>
+              <li className="grid-photo--list">
+                <div className={imgClass}>
+                  <Link to="/gallery/teacher-goes-kepri">
+                    <img src={require("../../assets/TEACHERS_GOES_TO_KEPRI_CORAL_RESORT/IMG_3336.JPG")} style={{ width: "240px", height: "200px" }} alt="Cycling Tour" />
+                    <p>TEACHERS GOES TO KEPRI CORAL RESORT</p>
+                  </Link>
+                </div>
+              </li>
+              <li className="grid-photo--list">
+                <div className={imgClass}>
+                  <Link to="/gallery/head-goes-kepri">
+                    <img src={require("../../assets/HEAD_MASTER_OF_BATAM_CITY_GOES_TO_KEPRI_CORAL_RESORT/IMG_2931.JPG")} style={{ width: "240px", height: "200px" }} alt="Cycling Tour" />
+                    <p>HEAD MASTER OF BATAM CITY GOES TO KEPRI CORAL RESORT</p>
+                  </Link>
+                </div>
+              </li>
+              <li className="grid-photo--list">
+                <div className={imgClass}>
+                  <Link to="/gallery/family-trip-to-coral">
+                    <img src={require("../../assets/FAMILY_TRIP_TO_KEPRI_CORAL_RESORT/IMG_2944.JPG")} style={{ width: "240px", height: "200px" }} alt="Cycling Tour" />
+                    <p>FAMILY TRIP TO KEPRI CORAL RESORT</p>
+                  </Link>
+                </div>
+              </li>
+              <li className="grid-photo--list">
+                <div className={imgClass}>
+                  <Link to="/gallery/almuhajirin-batam">
+                    <img src={require("../../assets/AL_MUHAJIRIN_ELEMENTARY_SCHOOL_BATAM/IMG_3331.JPG")} style={{ width: "240px", height: "200px" }} alt="Cycling Tour" />
+                    <p>AL MUHAJIRIN ELEMENTARY SCHOOL BATAM</p>
+                  </Link>
+                </div>
+              </li>
             </ul>
           </div>
         </div>

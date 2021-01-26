@@ -29,6 +29,11 @@ import Umroh from './sections/Gallery/Umroh';
 import Indonesia from './sections/Tourism/Domestic/Indonesia';
 import Asean from './sections/Tourism/Domestic/Asean';
 import Foreign from './sections/Tourism/Domestic/Foreign';
+import YoSudarso from './sections/Gallery/YoSudarso';
+import TeacherGoesKepri from './sections/Gallery/TeacherGoesKepri';
+import HeadToKepri from './sections/Gallery/HeadToKepri';
+import FamilyTripToCoral from './sections/Gallery/FamilyTripToCoral';
+import AlMuhajirinBatam from './sections/Gallery/AlMuhajirinBatam';
 
 const AppRoute = ({ component: Component, layout: Layout, ...rest }) => (
   <Route
@@ -202,6 +207,36 @@ function App() {
           path="/gallery/umroh"
           layout={MainLayout}
           component={Umroh}
+          exact
+        />
+        <AppRoute
+          path="/gallery/yosudarso-trip"
+          layout={MainLayout}
+          component={YoSudarso}
+          exact
+        />
+        <AppRoute
+          path="/gallery/teacher-goes-kepri"
+          layout={MainLayout}
+          component={TeacherGoesKepri}
+          exact
+        />
+        <AppRoute
+          path="/gallery/head-goes-kepri"
+          layout={MainLayout}
+          component={HeadToKepri}
+          exact
+        />
+        <AppRoute
+          path="/gallery/family-trip-to-coral"
+          layout={MainLayout}
+          component={FamilyTripToCoral}
+          exact
+        />
+        <AppRoute
+          path="/gallery/almuhajirin-batam"
+          layout={MainLayout}
+          component={AlMuhajirinBatam}
           exact
         />
       </Switch>
